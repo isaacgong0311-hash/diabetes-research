@@ -1,0 +1,546 @@
+{
+  "seed": 83710,
+  "splits": 8,
+  "draws_per_rule_pattern_split": 10,
+  "complete_n": 316267,
+  "truth_gap": 0.034668676833432374,
+  "summary": {
+    "income": {
+      "original": {
+        "mean_accuracy": 0.485221061350943,
+        "split_sd_accuracy": 0.0017399786333566895,
+        "mean_gap_error": 0.0002047204475927531,
+        "split_sd_gap_error": 0.0013659722499026494,
+        "min_donor_n": 27,
+        "max_fallback_recipients": 0
+      },
+      "health": {
+        "mean_accuracy": 0.49807905885150183,
+        "split_sd_accuracy": 0.002231091232015337,
+        "mean_gap_error": -9.635235545705904e-06,
+        "split_sd_gap_error": 0.0008865298369899302,
+        "min_donor_n": 1,
+        "max_fallback_recipients": 3
+      }
+    },
+    "insurance": {
+      "original": {
+        "mean_accuracy": 0.8712412444680684,
+        "split_sd_accuracy": 0.0017422006822802431,
+        "mean_gap_error": -0.0002205237328651065,
+        "split_sd_gap_error": 0.00126300869642417,
+        "min_donor_n": 112,
+        "max_fallback_recipients": 0
+      },
+      "health": {
+        "mean_accuracy": 0.8713438673411169,
+        "split_sd_accuracy": 0.0019978441731719108,
+        "mean_gap_error": -0.00018352227683548824,
+        "split_sd_gap_error": 0.0013562214413388894,
+        "min_donor_n": 1,
+        "max_fallback_recipients": 6
+      }
+    },
+    "both": {
+      "original": {
+        "mean_accuracy": 0.42979505668268864,
+        "split_sd_accuracy": 0.002169393729112362,
+        "mean_gap_error": -0.00040985380723872796,
+        "split_sd_gap_error": 0.0012837673526776162,
+        "min_donor_n": 518,
+        "max_fallback_recipients": 0
+      },
+      "health": {
+        "mean_accuracy": 0.4434202289555855,
+        "split_sd_accuracy": 0.0016353337823186932,
+        "mean_gap_error": -0.0008077064493486633,
+        "split_sd_gap_error": 0.0011439868352574494,
+        "min_donor_n": 1,
+        "max_fallback_recipients": 0
+      }
+    }
+  },
+  "splits_detail": [
+    {
+      "split": 1,
+      "mode": "income",
+      "rule": "original",
+      "holdout_n": 63485,
+      "mean_accuracy": 0.4865268620572861,
+      "mean_gap_error": 0.0011690589170242933,
+      "minimum_donor_n": 36,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 1,
+      "mode": "income",
+      "rule": "health",
+      "holdout_n": 63485,
+      "mean_accuracy": 0.49814051865954606,
+      "mean_gap_error": 0.0005631583305359275,
+      "minimum_donor_n": 2,
+      "fallback_recipients": 1
+    },
+    {
+      "split": 1,
+      "mode": "insurance",
+      "rule": "original",
+      "holdout_n": 63485,
+      "mean_accuracy": 0.8720359122500421,
+      "mean_gap_error": -0.0012378037941631864,
+      "minimum_donor_n": 122,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 1,
+      "mode": "insurance",
+      "rule": "health",
+      "holdout_n": 63485,
+      "mean_accuracy": 0.870755265453089,
+      "mean_gap_error": -0.0013173672408998403,
+      "minimum_donor_n": 1,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 1,
+      "mode": "both",
+      "rule": "original",
+      "holdout_n": 63485,
+      "mean_accuracy": 0.43239286713839553,
+      "mean_gap_error": -0.00099815622607905,
+      "minimum_donor_n": 525,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 1,
+      "mode": "both",
+      "rule": "health",
+      "holdout_n": 63485,
+      "mean_accuracy": 0.44350229191627627,
+      "mean_gap_error": -0.0008609689233362236,
+      "minimum_donor_n": 3,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 2,
+      "mode": "income",
+      "rule": "original",
+      "holdout_n": 63319,
+      "mean_accuracy": 0.48465010907770517,
+      "mean_gap_error": 0.0010180729487908962,
+      "minimum_donor_n": 28,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 2,
+      "mode": "income",
+      "rule": "health",
+      "holdout_n": 63319,
+      "mean_accuracy": 0.4972115749006451,
+      "mean_gap_error": 0.0007828048379476705,
+      "minimum_donor_n": 4,
+      "fallback_recipients": 1
+    },
+    {
+      "split": 2,
+      "mode": "insurance",
+      "rule": "original",
+      "holdout_n": 63319,
+      "mean_accuracy": 0.8723791919005931,
+      "mean_gap_error": -0.000824267638669414,
+      "minimum_donor_n": 119,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 2,
+      "mode": "insurance",
+      "rule": "health",
+      "holdout_n": 63319,
+      "mean_accuracy": 0.8726543962373631,
+      "mean_gap_error": -0.0006280313480581612,
+      "minimum_donor_n": 1,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 2,
+      "mode": "both",
+      "rule": "original",
+      "holdout_n": 63319,
+      "mean_accuracy": 0.42836338560438403,
+      "mean_gap_error": -0.0004615017334838281,
+      "minimum_donor_n": 518,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 2,
+      "mode": "both",
+      "rule": "health",
+      "holdout_n": 63319,
+      "mean_accuracy": 0.4416128123361555,
+      "mean_gap_error": -0.0004796928513522175,
+      "minimum_donor_n": 3,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 3,
+      "mode": "income",
+      "rule": "original",
+      "holdout_n": 62762,
+      "mean_accuracy": 0.4827324796764699,
+      "mean_gap_error": -0.001037747157071782,
+      "minimum_donor_n": 27,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 3,
+      "mode": "income",
+      "rule": "health",
+      "holdout_n": 62762,
+      "mean_accuracy": 0.49378653985642507,
+      "mean_gap_error": -0.0010264823179116076,
+      "minimum_donor_n": 1,
+      "fallback_recipients": 1
+    },
+    {
+      "split": 3,
+      "mode": "insurance",
+      "rule": "original",
+      "holdout_n": 62762,
+      "mean_accuracy": 0.8706298341957268,
+      "mean_gap_error": 0.001203751696402361,
+      "minimum_donor_n": 131,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 3,
+      "mode": "insurance",
+      "rule": "health",
+      "holdout_n": 62762,
+      "mean_accuracy": 0.870787595655185,
+      "mean_gap_error": 0.0008252485762556508,
+      "minimum_donor_n": 2,
+      "fallback_recipients": 2
+    },
+    {
+      "split": 3,
+      "mode": "both",
+      "rule": "original",
+      "holdout_n": 62762,
+      "mean_accuracy": 0.42769771846712085,
+      "mean_gap_error": 0.00019819444098057858,
+      "minimum_donor_n": 529,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 3,
+      "mode": "both",
+      "rule": "health",
+      "holdout_n": 62762,
+      "mean_accuracy": 0.4425522325206172,
+      "mean_gap_error": -0.0007685125493785125,
+      "minimum_donor_n": 1,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 4,
+      "mode": "income",
+      "rule": "original",
+      "holdout_n": 63522,
+      "mean_accuracy": 0.4874946298105297,
+      "mean_gap_error": 0.0007248022480818933,
+      "minimum_donor_n": 35,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 4,
+      "mode": "income",
+      "rule": "health",
+      "holdout_n": 63522,
+      "mean_accuracy": 0.5008476489053597,
+      "mean_gap_error": 0.0001743287336497118,
+      "minimum_donor_n": 1,
+      "fallback_recipients": 3
+    },
+    {
+      "split": 4,
+      "mode": "insurance",
+      "rule": "original",
+      "holdout_n": 63522,
+      "mean_accuracy": 0.8743017033241447,
+      "mean_gap_error": -0.0003066309873530584,
+      "minimum_donor_n": 112,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 4,
+      "mode": "insurance",
+      "rule": "health",
+      "holdout_n": 63522,
+      "mean_accuracy": 0.8752030682158836,
+      "mean_gap_error": -0.0006257558568699431,
+      "minimum_donor_n": 1,
+      "fallback_recipients": 6
+    },
+    {
+      "split": 4,
+      "mode": "both",
+      "rule": "original",
+      "holdout_n": 63522,
+      "mean_accuracy": 0.4322343853502625,
+      "mean_gap_error": 0.00019487390661968585,
+      "minimum_donor_n": 529,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 4,
+      "mode": "both",
+      "rule": "health",
+      "holdout_n": 63522,
+      "mean_accuracy": 0.4471054430046345,
+      "mean_gap_error": -0.0006093743612227906,
+      "minimum_donor_n": 1,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 5,
+      "mode": "income",
+      "rule": "original",
+      "holdout_n": 62988,
+      "mean_accuracy": 0.4835610801438137,
+      "mean_gap_error": 0.0012482183906182178,
+      "minimum_donor_n": 37,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 5,
+      "mode": "income",
+      "rule": "health",
+      "holdout_n": 62988,
+      "mean_accuracy": 0.49812681742790127,
+      "mean_gap_error": 0.00024726323731339984,
+      "minimum_donor_n": 1,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 5,
+      "mode": "insurance",
+      "rule": "original",
+      "holdout_n": 62988,
+      "mean_accuracy": 0.8696679263127318,
+      "mean_gap_error": -0.0011915677211010041,
+      "minimum_donor_n": 123,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 5,
+      "mode": "insurance",
+      "rule": "health",
+      "holdout_n": 62988,
+      "mean_accuracy": 0.8703467860907613,
+      "mean_gap_error": -0.0005393457137189723,
+      "minimum_donor_n": 2,
+      "fallback_recipients": 1
+    },
+    {
+      "split": 5,
+      "mode": "both",
+      "rule": "original",
+      "holdout_n": 62988,
+      "mean_accuracy": 0.4278838514091071,
+      "mean_gap_error": -0.0010149125018252257,
+      "minimum_donor_n": 519,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 5,
+      "mode": "both",
+      "rule": "health",
+      "holdout_n": 62988,
+      "mean_accuracy": 0.44326442453579284,
+      "mean_gap_error": -0.0014581570175588726,
+      "minimum_donor_n": 2,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 6,
+      "mode": "income",
+      "rule": "original",
+      "holdout_n": 63317,
+      "mean_accuracy": 0.48677131633474036,
+      "mean_gap_error": -0.0021831485891542655,
+      "minimum_donor_n": 40,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 6,
+      "mode": "income",
+      "rule": "health",
+      "holdout_n": 63317,
+      "mean_accuracy": 0.49765081600744576,
+      "mean_gap_error": -0.0015356243652720884,
+      "minimum_donor_n": 1,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 6,
+      "mode": "insurance",
+      "rule": "original",
+      "holdout_n": 63317,
+      "mean_accuracy": 0.8710450605843748,
+      "mean_gap_error": 0.001858972845476363,
+      "minimum_donor_n": 126,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 6,
+      "mode": "insurance",
+      "rule": "health",
+      "holdout_n": 63317,
+      "mean_accuracy": 0.8724245121649499,
+      "mean_gap_error": 0.002372158311421625,
+      "minimum_donor_n": 1,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 6,
+      "mode": "both",
+      "rule": "original",
+      "holdout_n": 63317,
+      "mean_accuracy": 0.4313937998942025,
+      "mean_gap_error": 0.0005394049365247885,
+      "minimum_donor_n": 530,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 6,
+      "mode": "both",
+      "rule": "health",
+      "holdout_n": 63317,
+      "mean_accuracy": 0.44258392822244125,
+      "mean_gap_error": -0.00029643429153239365,
+      "minimum_donor_n": 5,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 7,
+      "mode": "income",
+      "rule": "original",
+      "holdout_n": 62960,
+      "mean_accuracy": 0.4838854091307976,
+      "mean_gap_error": -0.0008387856161102783,
+      "minimum_donor_n": 31,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 7,
+      "mode": "income",
+      "rule": "health",
+      "holdout_n": 62960,
+      "mean_accuracy": 0.4979958143643143,
+      "mean_gap_error": -0.00027830478191446655,
+      "minimum_donor_n": 1,
+      "fallback_recipients": 1
+    },
+    {
+      "split": 7,
+      "mode": "insurance",
+      "rule": "original",
+      "holdout_n": 62960,
+      "mean_accuracy": 0.8685833726125107,
+      "mean_gap_error": -0.001663603380596583,
+      "minimum_donor_n": 114,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 7,
+      "mode": "insurance",
+      "rule": "health",
+      "holdout_n": 62960,
+      "mean_accuracy": 0.869100791272332,
+      "mean_gap_error": -0.0019639531770217654,
+      "minimum_donor_n": 1,
+      "fallback_recipients": 2
+    },
+    {
+      "split": 7,
+      "mode": "both",
+      "rule": "original",
+      "holdout_n": 62960,
+      "mean_accuracy": 0.4273434516797637,
+      "mean_gap_error": -0.0029617572588563484,
+      "minimum_donor_n": 526,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 7,
+      "mode": "both",
+      "rule": "health",
+      "holdout_n": 62960,
+      "mean_accuracy": 0.44293225330342867,
+      "mean_gap_error": -0.0030259488235793693,
+      "minimum_donor_n": 1,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 8,
+      "mode": "income",
+      "rule": "original",
+      "holdout_n": 62915,
+      "mean_accuracy": 0.48614660457620157,
+      "mean_gap_error": 0.0015372924385630496,
+      "minimum_donor_n": 35,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 8,
+      "mode": "income",
+      "rule": "health",
+      "holdout_n": 62915,
+      "mean_accuracy": 0.5008727406903775,
+      "mean_gap_error": 0.0009957744412858057,
+      "minimum_donor_n": 1,
+      "fallback_recipients": 1
+    },
+    {
+      "split": 8,
+      "mode": "insurance",
+      "rule": "original",
+      "holdout_n": 62915,
+      "mean_accuracy": 0.8712869545644224,
+      "mean_gap_error": 0.00039695911708367,
+      "minimum_donor_n": 119,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 8,
+      "mode": "insurance",
+      "rule": "health",
+      "holdout_n": 62915,
+      "mean_accuracy": 0.8694785236393718,
+      "mean_gap_error": 0.00040886823420750035,
+      "minimum_donor_n": 1,
+      "fallback_recipients": 1
+    },
+    {
+      "split": 8,
+      "mode": "both",
+      "rule": "original",
+      "holdout_n": 62915,
+      "mean_accuracy": 0.43105099391827306,
+      "mean_gap_error": 0.0012250239782095758,
+      "minimum_donor_n": 533,
+      "fallback_recipients": 0
+    },
+    {
+      "split": 8,
+      "mode": "both",
+      "rule": "health",
+      "holdout_n": 62915,
+      "mean_accuracy": 0.44380844580533835,
+      "mean_gap_error": 0.001037437223171074,
+      "minimum_donor_n": 1,
+      "fallback_recipients": 0
+    }
+  ],
+  "limitation": "Artificial random masking among observed respondents; no inference for real missing cases."
+}

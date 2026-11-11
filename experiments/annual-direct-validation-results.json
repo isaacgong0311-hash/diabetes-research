@@ -1,0 +1,20 @@
+{
+  "2024": {
+    "direct_difference": 0.013095458005289344,
+    "direct_se": 0.009627459330069608,
+    "variance_contributions": [
+      5.279515335731414e-05,
+      3.989281979483022e-05
+    ],
+    "difference_from_svy_covariance_se": -3.229564358997461e-11
+  },
+  "2025": {
+    "direct_difference": 0.011646176823149206,
+    "direct_se": 0.010051959162112132,
+    "variance_contributions": [
+      5.279626411143629e-05,
+      4.824561888533375e-05
+    ],
+    "difference_from_svy_covariance_se": -3.475070405045688e-11
+  }
+}

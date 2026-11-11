@@ -1,0 +1,45 @@
+{
+  "finished_utc": "2026-11-02T02:46:00.506032+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "input_sha256": {
+    "brfss2023-selected.csv.gz": "f513bc5f2cf94d5e47df78813a216cc592b0a948ce8b373b27da0466a37a24d8",
+    "missingness-standardized-probe-results.json": "b37ffe2e9edc191a2b903f6f5fc08e8c31d7ad63711a5c207a97c753027e37d5",
+    "brfss-access-standardization-results.json": "244b723110cfcd5f033a4301928dc9047acf7158bcb438bce287eba88db9574e",
+    "pipeline-run.json": "b33b0cb634d90bed5c941df25d5961c6bf46091f0106a5e1fa8227a46202cf0a"
+  },
+  "script_sha256": {
+    "missing_covariate_scenarios.py": "b48bb971a61f8a460f846c958a15e0b64106420f9f523eae668308bb8a16962c",
+    "plot_missing_covariate_scenarios.py": "b0c1d65dc77b18edaa5cbda587f64dd8e9d9cd29a6e7c7e98caccb7498e76257",
+    "hotdeck_sensitivity.py": "0f634c348cd23a31a1b9aed3c1acfdf767648b3396b9aaf6345c4a82e5cf5f34",
+    "hotdeck_masking_validation.py": "f454a6fdc8c2db10d22250489ae38b61d6c9a2fac32f7bd76297c6d78511750e",
+    "hotdeck_balance_audit.py": "dcced90988e0e051841ead42493797a095265c088787aebe75ef77fa1b0128c6",
+    "hotdeck_health_sensitivity.py": "f088970b1fbf51a54870e3a100d8037a170ea8d4f6ecb0d61aa6ee6d3e9d213f",
+    "hotdeck_health_masking.py": "14b7efa86bf45d1d6909feeb4a6b55d9e8fff2794bb1b97df6760c60d4b60ea0",
+    "hotdeck_repeated_masking.py": "c52f84d61906ed2f965f63ceb6f529ec6a731243ecb758e818356bbb84b25cad",
+    "test_missing_covariate_scenarios.py": "d355ae1a7e9dafba140974a07f6a9d11848aec3f3018da3cf770d19f95984f39",
+    "test_hotdeck_sensitivity.py": "e819859fff8324413c3abc6f73a0c6fb07a39f7d838c990cf1189a9c3b1d2650",
+    "run_missingness_pipeline.py": "f0960f6aa8b31e454246eded8df90294ec6448537a6eacda8f8cc8ba50ede8b0"
+  },
+  "output_sha256": {
+    "missing-covariate-scenarios.md": "77ba150a8efd96761ca9d17ffcf4ece8346e0e8d249a11c4c94696de9501a583",
+    "missing-covariate-scenarios-results.json": "cb43b2947e9bfbd65e4122766547581dcad2f377abdd103d24490c58558624e5",
+    "figure_missing_covariate_scenarios.png": "623a40b4ffeb49e68fbaac6a71ebec02e5e207852b446643fc5858062eb34f4b",
+    "figure_missing_covariate_scenarios.svg": "447eb1b5544c51dd768e3afd11091390f2a43ba340583f1c716bd72c31090ba1",
+    "figure_missing_covariate_fixed.png": "e18b6ca69dae07a0a76339cb99ea0cfe544d30414b1ddd4c024ab68f0e1ade3e",
+    "figure_missing_covariate_fixed.svg": "463963ae2269ab2d2b5b031d9bf76d34d9249af07921606aa3bb276ee803f233",
+    "hotdeck-sensitivity.md": "c27fc3249f250b439aae7de0b673802dceae75508e860fac8c87e05d45aae5ed",
+    "hotdeck-sensitivity-results.json": "acb4869e1f55171b8b688e0a45234db2a256a4b5616f31f967ae8781d3d7dd5b",
+    "hotdeck-masking-validation.md": "9625cdf34fa4c6039a27cacfe2f1c23915ad69c5aa4dc707a7eea2dfc06ff136",
+    "hotdeck-masking-validation-results.json": "ae2fe23579c7b5dcd3b62af0f6f1655bbdd6fa5d1d190394d8643ca063f06980",
+    "hotdeck-balance-audit.md": "0e135e59f9a66f595fb726b2e67b6f811e339c1abd861b0c670742bcaed25d16",
+    "hotdeck-balance-audit-results.json": "c86dc305d1278a8be9ebb7223103c7ee8cb4962bd543ec84891093f7422bdc24",
+    "hotdeck-health-sensitivity.md": "53b9a4c4a06c2208230ac2954cc875131975d9cb211a7246f32bed521da60d7c",
+    "hotdeck-health-sensitivity-results.json": "492e9d888eb235457b2c81ee9c44ac1282030bc15bedfa054b0952424d0d987a",
+    "hotdeck-health-masking.md": "6a3b730a9165498976eaae14370072277d10af764de596cc3db87fd3afac9e12",
+    "hotdeck-health-masking-results.json": "895e0ec9fb5d7ddbaaf698c2e0ba601d842b0d76de99eba6f98f232ffbbb29b5",
+    "hotdeck-repeated-masking.md": "21633ba8613e7ba18ca484069a1bece625c6a512d744edb8a3d49b90e1080dde",
+    "hotdeck-repeated-masking-results.json": "c276417b8fa61b173128dec127dcf4e1d316164da48aa62e4ba859fbfbfb8825"
+  },
+  "note": "Completed supplemental steps; hashes record files, not the validity of statistical assumptions."
+}

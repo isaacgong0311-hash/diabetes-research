@@ -1,0 +1,11 @@
+{
+  "total_records": 433323,
+  "total_strata": 2146,
+  "full_sample_single_psu_strata": 101,
+  "stratum_psu_pairs": 433323,
+  "domain_records": 58047,
+  "domain_no_psu_strata": 263,
+  "domain_one_psu_strata": 188,
+  "domain_multiple_psu_strata": 1695,
+  "domain_singleton_from_multipsu_strata": 174
+}

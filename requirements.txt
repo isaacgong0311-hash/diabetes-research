@@ -1,0 +1,7 @@
+duckdb
+matplotlib
+numpy
+pandas
+polars
+samplics
+svy

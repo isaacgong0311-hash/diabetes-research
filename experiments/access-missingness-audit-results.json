@@ -1,0 +1,127 @@
+{
+  "base_n": 409306,
+  "complete_n": 316267,
+  "groups": {
+    "diabetes": {
+      "total": {
+        "n": 58047,
+        "weight": 29906710.076393157,
+        "cost_rate": 0.11168920525250979
+      },
+      "complete": {
+        "n": 44808,
+        "weight": 22410565.837053955,
+        "cost_rate": 0.11445773899966286
+      },
+      "excluded": {
+        "n": 13239,
+        "weight": 7496144.239339201,
+        "cost_rate": 0.10341236240748095
+      },
+      "excluded_weighted_fraction": 0.25065091480109936,
+      "missing": {
+        "missing_age": {
+          "n": 886,
+          "weighted_fraction": 0.020058738237893448
+        },
+        "missing_income": {
+          "n": 11605,
+          "weighted_fraction": 0.21452276859635735
+        },
+        "missing_insurance": {
+          "n": 2313,
+          "weighted_fraction": 0.04942279675554565
+        }
+      }
+    },
+    "no_diabetes": {
+      "total": {
+        "n": 351259,
+        "weight": 210778803.23560077,
+        "cost_rate": 0.11448607027688303
+      },
+      "complete": {
+        "n": 271459,
+        "weight": 157879151.7811051,
+        "cost_rate": 0.11581930524411886
+      },
+      "excluded": {
+        "n": 79800,
+        "weight": 52899651.454495646,
+        "cost_rate": 0.11050702693794595
+      },
+      "excluded_weighted_fraction": 0.2509723494129833,
+      "missing": {
+        "missing_age": {
+          "n": 6326,
+          "weighted_fraction": 0.01773338537845695
+        },
+        "missing_income": {
+          "n": 69663,
+          "weighted_fraction": 0.21537237734047202
+        },
+        "missing_insurance": {
+          "n": 15259,
+          "weighted_fraction": 0.056314275283570144
+        }
+      }
+    }
+  },
+  "within_age": [
+    {
+      "group": "diabetes",
+      "age": "18\u201344",
+      "complete_n": 3361,
+      "excluded_n": 754,
+      "complete_cost_rate": 0.2224866693910786,
+      "excluded_cost_rate": 0.22027985610582432,
+      "excluded_weighted_fraction": 0.2172969771636072
+    },
+    {
+      "group": "diabetes",
+      "age": "45\u201364",
+      "complete_n": 16228,
+      "excluded_n": 3435,
+      "complete_cost_rate": 0.15009041513645752,
+      "excluded_cost_rate": 0.1536037502571942,
+      "excluded_weighted_fraction": 0.19376362817326515
+    },
+    {
+      "group": "diabetes",
+      "age": "65+",
+      "complete_n": 25219,
+      "excluded_n": 8164,
+      "complete_cost_rate": 0.047145710563530105,
+      "excluded_cost_rate": 0.04917463976374715,
+      "excluded_weighted_fraction": 0.2771810234889933
+    },
+    {
+      "group": "no_diabetes",
+      "age": "18\u201344",
+      "complete_n": 92635,
+      "excluded_n": 24465,
+      "complete_cost_rate": 0.15850362731965445,
+      "excluded_cost_rate": 0.1521694914513663,
+      "excluded_weighted_fraction": 0.24488871480808191
+    },
+    {
+      "group": "no_diabetes",
+      "age": "45\u201364",
+      "complete_n": 88408,
+      "excluded_n": 18176,
+      "complete_cost_rate": 0.09894512591563923,
+      "excluded_cost_rate": 0.10900552110513928,
+      "excluded_weighted_fraction": 0.1941106122536762
+    },
+    {
+      "group": "no_diabetes",
+      "age": "65+",
+      "complete_n": 90416,
+      "excluded_n": 30833,
+      "complete_cost_rate": 0.030777067334598108,
+      "excluded_cost_rate": 0.03226931317463805,
+      "excluded_weighted_fraction": 0.280239582926993
+    }
+  ],
+  "limitations": "Descriptive weighted rates; no survey variance, causal interpretation, or missing-data model."
+}

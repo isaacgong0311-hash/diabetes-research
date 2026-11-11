@@ -1,0 +1,32 @@
+{
+  "seed": 60241,
+  "attempted": 500,
+  "valid": 500,
+  "invalid_missing_group": 0,
+  "replicates_with_any_zero_event_joint_group_cell": 25,
+  "full_design_strata": 2146,
+  "full_design_singletons_fixed": 101,
+  "estimates": {
+    "age_only": {
+      "point": 0.0492679884196772,
+      "bootstrap_sd": 0.007580110983213944,
+      "bootstrap_percentile_low": 0.03511340884989335,
+      "bootstrap_percentile_high": 0.0649661628534197,
+      "linearized_skip_se": 0.007425231943414626
+    },
+    "age_income": {
+      "point": 0.027032125427245913,
+      "bootstrap_sd": 0.007351199143150472,
+      "bootstrap_percentile_low": 0.013810278787232661,
+      "bootstrap_percentile_high": 0.04147077161679726,
+      "linearized_skip_se": 0.007105974202901103
+    },
+    "age_income_insurance": {
+      "point": 0.03466867683343232,
+      "bootstrap_sd": 0.007186406061838471,
+      "bootstrap_percentile_low": 0.022301382204067424,
+      "bootstrap_percentile_high": 0.04915052143887126,
+      "linearized_skip_se": 0.006896605525918769
+    }
+  }
+}

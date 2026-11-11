@@ -1,0 +1,32 @@
+# Local Python environments and caches
+__pycache__/
+*.py[cod]
+.deps/
+.plotdeps/
+.surveydeps/
+.venv/
+venv/
+
+# Downloaded or derived source datasets
+experiments/*.parquet
+experiments/*.csv.gz
+experiments/uci-diabetes-130-hospitals.zip
+
+# Local configuration, credentials, and editor files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.idea/
+.vscode/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and log files
+*.log
+*.tmp
+~$*

@@ -1,0 +1,45 @@
+{
+  "svy_version": "0.36.0",
+  "cell_keys": [
+    "a0g0e0",
+    "a0g0e1",
+    "a0g1e0",
+    "a0g1e1",
+    "a1g0e0",
+    "a1g0e1",
+    "a1g1e0",
+    "a1g1e1",
+    "a2g0e0",
+    "a2g0e1",
+    "a2g1e0",
+    "a2g1e1",
+    "outside"
+  ],
+  "domain_policies": {
+    "standard": {
+      "contrast": "contrast",
+      "est": 0.04900768333606036,
+      "se": 0.006677591139951207,
+      "cv": 0.13625600488317238,
+      "lci": 0.03591980559254063,
+      "uci": 0.0620955610795801,
+      "t": 7.339126087378039,
+      "p_value": 2.1539757142138613e-13,
+      "df": 399970.0
+    },
+    "apply": {
+      "contrast": "contrast",
+      "est": 0.04900768333606036,
+      "se": 0.006677622454686636,
+      "cv": 0.1362566438592124,
+      "lci": 0.03591974421660127,
+      "uci": 0.06209562245551946,
+      "t": 7.339091670518855,
+      "p_value": 2.1545295382868672e-13,
+      "df": 399970.0
+    }
+  },
+  "prototype_point": 0.04900768333606145,
+  "prototype_centered_se": 0.006677591139951358,
+  "warning": "Exploratory validation only; survey domain singleton settings and confidence coverage require review."
+}

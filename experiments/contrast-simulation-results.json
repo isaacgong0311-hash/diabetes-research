@@ -1,0 +1,38 @@
+{
+  "seed": 7321,
+  "attempts_per_scenario": 1000,
+  "finite_population_size": 11000,
+  "true_contrast": 0.02023844646477283,
+  "scenarios": [
+    {
+      "sample_size": 720,
+      "valid_samples": 1000,
+      "invalid_samples_missing_cell": 0,
+      "mean_estimate": 0.021311513379570556,
+      "empirical_bias": 0.0010730669147977247,
+      "empirical_sd": 0.0435735163599972,
+      "mean_estimated_se": 0.041520218278703565,
+      "normal_95_interval_coverage": 0.929
+    },
+    {
+      "sample_size": 1440,
+      "valid_samples": 1000,
+      "invalid_samples_missing_cell": 0,
+      "mean_estimate": 0.020708762742778858,
+      "empirical_bias": 0.0004703162780060263,
+      "empirical_sd": 0.02929548978390366,
+      "mean_estimated_se": 0.029608871277618538,
+      "normal_95_interval_coverage": 0.95
+    },
+    {
+      "sample_size": 2880,
+      "valid_samples": 1000,
+      "invalid_samples_missing_cell": 0,
+      "mean_estimate": 0.020206973304065883,
+      "empirical_bias": -3.147316070694836e-05,
+      "empirical_sd": 0.021423040671917186,
+      "mean_estimated_se": 0.020873748023664374,
+      "normal_95_interval_coverage": 0.938
+    }
+  ]
+}

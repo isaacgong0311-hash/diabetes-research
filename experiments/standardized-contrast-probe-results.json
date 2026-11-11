@@ -1,0 +1,10 @@
+{
+  "description": "Experimental, not independently validated for publication",
+  "contrast": 0.04900768333606145,
+  "se_centered_candidate": 0.006677591139951358,
+  "se_skipped_candidate": 0.006677541686337584,
+  "score_sum": 2.7755575615628914e-17,
+  "derivatives_checked": 38,
+  "max_abs_derivative_error": 9.255523170120404e-14,
+  "domain_n": 402094
+}

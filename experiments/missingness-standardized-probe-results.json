@@ -1,0 +1,32 @@
+{
+  "known_age_domain_n": 402094,
+  "complete_n": 316267,
+  "incomplete_n": 85827,
+  "estimates": {
+    "complete": {
+      "contrast": 0.048865870499397064,
+      "se": 0.007450503374362845,
+      "normal_95_low": 0.034263152218952146,
+      "normal_95_high": 0.06346858877984199
+    },
+    "incomplete": {
+      "contrast": 0.04890762150649625,
+      "se": 0.014968884919373999,
+      "normal_95_low": 0.019569146175799274,
+      "normal_95_high": 0.07824609683719323
+    },
+    "complete_minus_incomplete": {
+      "contrast": -4.1751007099182984e-05,
+      "se": 0.016720870483694212,
+      "normal_95_low": -0.032814054945297766,
+      "normal_95_high": 0.0327305529310994
+    }
+  },
+  "reference_age_weights": [
+    0.46085898835830635,
+    0.30347100151887824,
+    0.23567001012281552
+  ],
+  "derivatives_checked": 24,
+  "max_derivative_error": 3.493265179617226e-14
+}

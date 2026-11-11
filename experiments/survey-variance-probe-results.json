@@ -1,0 +1,20 @@
+{
+  "benchmark": {
+    "estimate": 0.25426399888864637,
+    "se": 0.002716123874426338,
+    "normal_ci": [
+      0.24894049391722137,
+      0.2595875038600714
+    ],
+    "full_sample_singletons": 101,
+    "n_strata": 2146
+  },
+  "published_rounded_reference": {
+    "estimate": 0.254,
+    "lower": 0.249,
+    "upper": 0.26,
+    "rounding_tolerance": 0.0015
+  },
+  "matches_rounded_reference": true,
+  "reference": "https://muntasirmasum.github.io/brfssdata/articles/survey-design.html"
+}

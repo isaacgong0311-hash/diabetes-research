@@ -1,0 +1,33 @@
+{
+  "svy_version": "0.36.0",
+  "year_sample_n": {
+    "2023": 379334,
+    "2024": 402275,
+    "2025": 314576
+  },
+  "within_year_contrasts": {
+    "2023": 0.04836344682231956,
+    "2024": 0.06145890482760877,
+    "2025": 0.06000962364546891
+  },
+  "comparisons": {
+    "2024": {
+      "difference_in_contrasts": 0.01309545800528921,
+      "standard_error": 0.009627459362365252,
+      "normal_95_low": -0.005774015607569117,
+      "normal_95_high": 0.031964931618147535,
+      "variance_from_2023": 5.279515372962198e-05,
+      "variance_from_later_year": 3.9892820044372356e-05
+    },
+    "2025": {
+      "difference_in_contrasts": 0.011646176823149355,
+      "standard_error": 0.010051959196862836,
+      "normal_95_low": -0.008055301176767428,
+      "normal_95_high": 0.03134765482306614,
+      "variance_from_2023": 5.279626448374526e-05,
+      "variance_from_later_year": 4.824561921165009e-05
+    }
+  },
+  "assumption": "Independent annual samples; cross-year covariance assumed zero.",
+  "limitation": "Exploratory delta-method calculation; not independently validated or a trend test."
+}

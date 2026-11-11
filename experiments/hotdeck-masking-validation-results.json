@@ -1,0 +1,45 @@
+{
+  "seed": 67032,
+  "draws_per_pattern": 50,
+  "holdout_fraction": 0.2,
+  "complete_n": 316267,
+  "results": {
+    "income": {
+      "holdout_n": 63063,
+      "donor_n": 253204,
+      "pool_count": 24,
+      "minimum_donor_n": 35,
+      "weighted_accuracy_mean": 0.4863128301459577,
+      "weighted_majority_accuracy": 0.6232777150242235,
+      "contrast_truth": 0.034668676833432374,
+      "contrast_mean": 0.036109894050163835,
+      "contrast_bias_from_masking": 0.0014412172167314607,
+      "contrast_sd_between_draws": 0.0014286275990411834
+    },
+    "insurance": {
+      "holdout_n": 63063,
+      "donor_n": 253204,
+      "pool_count": 36,
+      "minimum_donor_n": 121,
+      "weighted_accuracy_mean": 0.8725575201658148,
+      "weighted_majority_accuracy": 0.9215526212733606,
+      "contrast_truth": 0.034668676833432374,
+      "contrast_mean": 0.03677828161795213,
+      "contrast_bias_from_masking": 0.0021096047845197557,
+      "contrast_sd_between_draws": 0.0009751169676752803
+    },
+    "both": {
+      "holdout_n": 63063,
+      "donor_n": 253204,
+      "pool_count": 12,
+      "minimum_donor_n": 513,
+      "weighted_accuracy_mean": 0.4330117346569613,
+      "weighted_majority_accuracy": 0.5923761118936481,
+      "contrast_truth": 0.034668676833432374,
+      "contrast_mean": 0.03869857022874937,
+      "contrast_bias_from_masking": 0.004029893395316994,
+      "contrast_sd_between_draws": 0.0019048195595743546
+    }
+  },
+  "limitation": "Random masking among observed respondents cannot validate truly missing responses."
+}

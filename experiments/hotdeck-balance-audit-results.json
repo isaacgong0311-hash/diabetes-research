@@ -1,0 +1,777 @@
+{
+  "recipient_total": 85827,
+  "recipient_known_health": 85356,
+  "summaries": {
+    "all": {
+      "recipient_n": 85356,
+      "pools": 72,
+      "recipient_rate": 0.207364662538822,
+      "donor_pool_rate_reweighted": 0.18628727468740316,
+      "difference": -0.021077387851418834,
+      "mean_absolute_pool_difference": 0.030016106349411827
+    },
+    "no_diabetes": {
+      "recipient_n": 73105,
+      "pools": 36,
+      "recipient_rate": 0.1708227086098337,
+      "donor_pool_rate_reweighted": 0.15225398174394267,
+      "difference": -0.018568726865891033,
+      "mean_absolute_pool_difference": 0.025403201643268498
+    },
+    "diabetes": {
+      "recipient_n": 12251,
+      "pools": 36,
+      "recipient_rate": 0.46888784207043227,
+      "donor_pool_rate_reweighted": 0.4298564882494576,
+      "difference": -0.03903135382097469,
+      "mean_absolute_pool_difference": 0.06302970786539219
+    },
+    "income_only": {
+      "recipient_n": 69324,
+      "pools": 24,
+      "recipient_rate": 0.20917424585595237,
+      "donor_pool_rate_reweighted": 0.18635511750505265,
+      "difference": -0.022819128350899696,
+      "mean_absolute_pool_difference": 0.027491832902522776
+    },
+    "insurance_only": {
+      "recipient_n": 9012,
+      "pools": 36,
+      "recipient_rate": 0.21387852958314862,
+      "donor_pool_rate_reweighted": 0.20663512632159392,
+      "difference": -0.007243403261554651,
+      "mean_absolute_pool_difference": 0.04796420196740378
+    },
+    "both": {
+      "recipient_n": 7020,
+      "pools": 12,
+      "recipient_rate": 0.18501787431822,
+      "donor_pool_rate_reweighted": 0.16033750331496954,
+      "difference": -0.024680371003250476,
+      "mean_absolute_pool_difference": 0.02741909406010152
+    }
+  },
+  "pool_diagnostics": [
+    {
+      "pattern": "income_only",
+      "group": 0,
+      "recipient_n": 13085,
+      "recipient_weight": 13139626.061629474,
+      "recipient_rate": 0.11816974272305453,
+      "donor_rate": 0.09443035636645095,
+      "difference": -0.02373938635660358,
+      "known_health_donor_n": 73967
+    },
+    {
+      "pattern": "income_only",
+      "group": 0,
+      "recipient_n": 1786,
+      "recipient_weight": 2022199.344106532,
+      "recipient_rate": 0.13291090259432323,
+      "donor_rate": 0.11182917449853405,
+      "difference": -0.021081728095789176,
+      "known_health_donor_n": 5360
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 573,
+      "recipient_weight": 593343.0887356211,
+      "recipient_rate": 0.12510718578210442,
+      "donor_rate": 0.19491245883981276,
+      "difference": 0.06980527305770834,
+      "known_health_donor_n": 7828
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 940,
+      "recipient_weight": 976926.0251756955,
+      "recipient_rate": 0.10653788727993461,
+      "donor_rate": 0.13116495366228137,
+      "difference": 0.024627066382346754,
+      "known_health_donor_n": 16279
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 1731,
+      "recipient_weight": 1945614.2130703982,
+      "recipient_rate": 0.08816806367002987,
+      "donor_rate": 0.06624798537604182,
+      "difference": -0.021920078293988052,
+      "known_health_donor_n": 55220
+    },
+    {
+      "pattern": "both",
+      "group": 0,
+      "recipient_n": 2642,
+      "recipient_weight": 3097851.9048064114,
+      "recipient_rate": 0.09787111731043174,
+      "donor_rate": 0.09592722079315202,
+      "difference": -0.0019438965172797196,
+      "known_health_donor_n": 79327
+    },
+    {
+      "pattern": "income_only",
+      "group": 0,
+      "recipient_n": 1690,
+      "recipient_weight": 1806359.8243606375,
+      "recipient_rate": 0.29734152686262394,
+      "donor_rate": 0.25742292389712157,
+      "difference": -0.03991860296550237,
+      "known_health_donor_n": 9266
+    },
+    {
+      "pattern": "income_only",
+      "group": 0,
+      "recipient_n": 1104,
+      "recipient_weight": 1256958.5262987982,
+      "recipient_rate": 0.34767470100115266,
+      "donor_rate": 0.31634317451516597,
+      "difference": -0.031331526485986694,
+      "known_health_donor_n": 3926
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 180,
+      "recipient_weight": 203670.18913809472,
+      "recipient_rate": 0.2992620950202185,
+      "donor_rate": 0.38776514712705745,
+      "difference": 0.08850305210683895,
+      "known_health_donor_n": 2809
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 183,
+      "recipient_weight": 164306.69957639225,
+      "recipient_rate": 0.3413271008862549,
+      "donor_rate": 0.27199317775495513,
+      "difference": -0.06933392313129977,
+      "known_health_donor_n": 4758
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 125,
+      "recipient_weight": 130890.10166988037,
+      "recipient_rate": 0.32457805432712994,
+      "donor_rate": 0.21374160113454455,
+      "difference": -0.1108364531925854,
+      "known_health_donor_n": 5625
+    },
+    {
+      "pattern": "both",
+      "group": 0,
+      "recipient_n": 327,
+      "recipient_weight": 324699.09202861565,
+      "recipient_rate": 0.3104646783078042,
+      "donor_rate": 0.2770389582916228,
+      "difference": -0.03342572001618144,
+      "known_health_donor_n": 13192
+    },
+    {
+      "pattern": "income_only",
+      "group": 1,
+      "recipient_n": 430,
+      "recipient_weight": 461188.1814595896,
+      "recipient_rate": 0.30889536419050106,
+      "donor_rate": 0.3705117492102875,
+      "difference": 0.061616385019786446,
+      "known_health_donor_n": 2576
+    },
+    {
+      "pattern": "income_only",
+      "group": 1,
+      "recipient_n": 43,
+      "recipient_weight": 46637.69180557549,
+      "recipient_rate": 0.37353476584175865,
+      "donor_rate": 0.33530920023234717,
+      "difference": -0.03822556560941148,
+      "known_health_donor_n": 124
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 34,
+      "recipient_weight": 27226.450661623658,
+      "recipient_rate": 0.6598886806888317,
+      "donor_rate": 0.5762697093605242,
+      "difference": -0.08361897132830742,
+      "known_health_donor_n": 531
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 26,
+      "recipient_weight": 25667.52583442297,
+      "recipient_rate": 0.16475990017134237,
+      "donor_rate": 0.435856722321192,
+      "difference": 0.27109682214984965,
+      "known_health_donor_n": 705
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 21,
+      "recipient_weight": 14895.270371720302,
+      "recipient_rate": 0.6356922803447219,
+      "donor_rate": 0.253536376918617,
+      "difference": -0.3821559034261049,
+      "known_health_donor_n": 1464
+    },
+    {
+      "pattern": "both",
+      "group": 1,
+      "recipient_n": 50,
+      "recipient_weight": 44021.81379687662,
+      "recipient_rate": 0.28960940326778917,
+      "donor_rate": 0.36808198509750895,
+      "difference": 0.07847258182971978,
+      "known_health_donor_n": 2700
+    },
+    {
+      "pattern": "income_only",
+      "group": 1,
+      "recipient_n": 69,
+      "recipient_weight": 66880.7377625332,
+      "recipient_rate": 0.7222949990209616,
+      "donor_rate": 0.48337424343505786,
+      "difference": -0.23892075558590375,
+      "known_health_donor_n": 475
+    },
+    {
+      "pattern": "income_only",
+      "group": 1,
+      "recipient_n": 43,
+      "recipient_weight": 68362.45276664657,
+      "recipient_rate": 0.6960997092428262,
+      "donor_rate": 0.5421305425703632,
+      "difference": -0.15396916667246296,
+      "known_health_donor_n": 181
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 10,
+      "recipient_weight": 15262.654976224614,
+      "recipient_rate": 0.9141649774004521,
+      "donor_rate": 0.7363520450561798,
+      "difference": -0.1778129323442723,
+      "known_health_donor_n": 203
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 8,
+      "recipient_weight": 7197.101059887998,
+      "recipient_rate": 0.3240704788891929,
+      "donor_rate": 0.39523727022616284,
+      "difference": 0.07116679133696996,
+      "known_health_donor_n": 243
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 2,
+      "recipient_weight": 668.4628739470924,
+      "recipient_rate": 0.0,
+      "donor_rate": 0.3698127456133042,
+      "difference": 0.3698127456133042,
+      "known_health_donor_n": 210
+    },
+    {
+      "pattern": "both",
+      "group": 1,
+      "recipient_n": 12,
+      "recipient_weight": 17590.142361014867,
+      "recipient_rate": 0.6672136515603988,
+      "donor_rate": 0.5016101013501173,
+      "difference": -0.1656035502102815,
+      "known_health_donor_n": 656
+    },
+    {
+      "pattern": "income_only",
+      "group": 0,
+      "recipient_n": 12970,
+      "recipient_weight": 8179429.413179573,
+      "recipient_rate": 0.15714448054214966,
+      "donor_rate": 0.12747066326102963,
+      "difference": -0.029673817281120035,
+      "known_health_donor_n": 77570
+    },
+    {
+      "pattern": "income_only",
+      "group": 0,
+      "recipient_n": 709,
+      "recipient_weight": 464254.53124098084,
+      "recipient_rate": 0.1878099139348169,
+      "donor_rate": 0.17069505579696795,
+      "difference": -0.017114858137848965,
+      "known_health_donor_n": 3106
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 397,
+      "recipient_weight": 263427.6319216629,
+      "recipient_rate": 0.3405963392905989,
+      "donor_rate": 0.38605674921348043,
+      "difference": 0.04546040992288153,
+      "known_health_donor_n": 7677
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 424,
+      "recipient_weight": 248556.33169447226,
+      "recipient_rate": 0.23520870167822885,
+      "donor_rate": 0.21803328787327125,
+      "difference": -0.0171754138049576,
+      "known_health_donor_n": 12567
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 817,
+      "recipient_weight": 471400.4466462716,
+      "recipient_rate": 0.10804067972943084,
+      "donor_rate": 0.07682013988160738,
+      "difference": -0.031220539847823456,
+      "known_health_donor_n": 60432
+    },
+    {
+      "pattern": "both",
+      "group": 0,
+      "recipient_n": 1000,
+      "recipient_weight": 662231.214369459,
+      "recipient_rate": 0.1932186166374898,
+      "donor_rate": 0.12943380455490747,
+      "difference": -0.06378481208258233,
+      "known_health_donor_n": 80676
+    },
+    {
+      "pattern": "income_only",
+      "group": 0,
+      "recipient_n": 950,
+      "recipient_weight": 671508.8450694111,
+      "recipient_rate": 0.39573496628781984,
+      "donor_rate": 0.3860819785030307,
+      "difference": -0.009652987784789124,
+      "known_health_donor_n": 5607
+    },
+    {
+      "pattern": "income_only",
+      "group": 0,
+      "recipient_n": 462,
+      "recipient_weight": 338345.3567752915,
+      "recipient_rate": 0.3269490370927069,
+      "donor_rate": 0.4535673041549261,
+      "difference": 0.12661826706221918,
+      "known_health_donor_n": 1979
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 107,
+      "recipient_weight": 70025.14214236793,
+      "recipient_rate": 0.500480892436936,
+      "donor_rate": 0.5729888936932677,
+      "difference": 0.07250800125633161,
+      "known_health_donor_n": 2235
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 75,
+      "recipient_weight": 42371.950372504376,
+      "recipient_rate": 0.3934897384334089,
+      "donor_rate": 0.4359378055163201,
+      "difference": 0.04244806708291121,
+      "known_health_donor_n": 2530
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 55,
+      "recipient_weight": 39305.13958026649,
+      "recipient_rate": 0.10160643738538935,
+      "donor_rate": 0.22480004776284582,
+      "difference": 0.12319361037745646,
+      "known_health_donor_n": 2821
+    },
+    {
+      "pattern": "both",
+      "group": 0,
+      "recipient_n": 121,
+      "recipient_weight": 90164.56582953254,
+      "recipient_rate": 0.4861834168087105,
+      "donor_rate": 0.4069312420831639,
+      "difference": -0.07925217472554663,
+      "known_health_donor_n": 7586
+    },
+    {
+      "pattern": "income_only",
+      "group": 1,
+      "recipient_n": 2258,
+      "recipient_weight": 1441307.156256549,
+      "recipient_rate": 0.4798298428018834,
+      "donor_rate": 0.4116029689442876,
+      "difference": -0.0682268738575958,
+      "known_health_donor_n": 13798
+    },
+    {
+      "pattern": "income_only",
+      "group": 1,
+      "recipient_n": 107,
+      "recipient_weight": 89937.98406276925,
+      "recipient_rate": 0.4139083815756484,
+      "donor_rate": 0.5697279005127761,
+      "difference": 0.1558195189371277,
+      "known_health_donor_n": 374
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 153,
+      "recipient_weight": 129148.56188455972,
+      "recipient_rate": 0.6453344618302304,
+      "donor_rate": 0.6804396003371446,
+      "difference": 0.03510513850691421,
+      "known_health_donor_n": 3094
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 107,
+      "recipient_weight": 76981.4221736105,
+      "recipient_rate": 0.5819445274229078,
+      "donor_rate": 0.5084007163195184,
+      "difference": -0.07354381110338937,
+      "known_health_donor_n": 3218
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 93,
+      "recipient_weight": 78848.17842799648,
+      "recipient_rate": 0.2202672413110807,
+      "donor_rate": 0.2807559066358809,
+      "difference": 0.06048866532480021,
+      "known_health_donor_n": 7860
+    },
+    {
+      "pattern": "both",
+      "group": 1,
+      "recipient_n": 196,
+      "recipient_weight": 141978.09513452344,
+      "recipient_rate": 0.5220235887893979,
+      "donor_rate": 0.41650270851429244,
+      "difference": -0.10552088027510548,
+      "known_health_donor_n": 14172
+    },
+    {
+      "pattern": "income_only",
+      "group": 1,
+      "recipient_n": 276,
+      "recipient_weight": 196867.25170022796,
+      "recipient_rate": 0.7770735834818139,
+      "donor_rate": 0.673725302491872,
+      "difference": -0.10334828098994187,
+      "known_health_donor_n": 1619
+    },
+    {
+      "pattern": "income_only",
+      "group": 1,
+      "recipient_n": 97,
+      "recipient_weight": 90995.14076163789,
+      "recipient_rate": 0.8435352773939012,
+      "donor_rate": 0.6849595651772978,
+      "difference": -0.15857571221660338,
+      "known_health_donor_n": 404
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 48,
+      "recipient_weight": 32430.432815007793,
+      "recipient_rate": 0.7576309934464138,
+      "donor_rate": 0.745632465549265,
+      "difference": -0.011998527897148836,
+      "known_health_donor_n": 782
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 22,
+      "recipient_weight": 11033.316904607722,
+      "recipient_rate": 0.8108068526680646,
+      "donor_rate": 0.7163686775377807,
+      "difference": -0.09443817513028396,
+      "known_health_donor_n": 709
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 10,
+      "recipient_weight": 3942.063349763577,
+      "recipient_rate": 0.4097354176691116,
+      "donor_rate": 0.5150555358901745,
+      "difference": 0.10532011822106291,
+      "known_health_donor_n": 532
+    },
+    {
+      "pattern": "both",
+      "group": 1,
+      "recipient_n": 40,
+      "recipient_weight": 20521.15350896673,
+      "recipient_rate": 0.7859296602027717,
+      "donor_rate": 0.676401763770012,
+      "difference": -0.10952789643275962,
+      "known_health_donor_n": 2023
+    },
+    {
+      "pattern": "income_only",
+      "group": 0,
+      "recipient_n": 25674,
+      "recipient_weight": 9620047.0687486,
+      "recipient_rate": 0.19447015359090855,
+      "donor_rate": 0.18370242522425584,
+      "difference": -0.010767728366652712,
+      "known_health_donor_n": 87638
+    },
+    {
+      "pattern": "income_only",
+      "group": 0,
+      "recipient_n": 176,
+      "recipient_weight": 96370.81269270473,
+      "recipient_rate": 0.1878211504087117,
+      "donor_rate": 0.20251995711880116,
+      "difference": 0.014698806710089468,
+      "known_health_donor_n": 371
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 526,
+      "recipient_weight": 267212.1081317548,
+      "recipient_rate": 0.3013880300195481,
+      "donor_rate": 0.35054410093798594,
+      "difference": 0.04915607091843782,
+      "known_health_donor_n": 11215
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 723,
+      "recipient_weight": 304174.69807332684,
+      "recipient_rate": 0.3280099726484569,
+      "donor_rate": 0.228218575355513,
+      "difference": -0.0997913972929439,
+      "known_health_donor_n": 26177
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 789,
+      "recipient_weight": 287688.4529495719,
+      "recipient_rate": 0.1451607328827157,
+      "donor_rate": 0.1177445000335085,
+      "difference": -0.02741623284920719,
+      "known_health_donor_n": 50617
+    },
+    {
+      "pattern": "both",
+      "group": 0,
+      "recipient_n": 2014,
+      "recipient_weight": 795749.0431981386,
+      "recipient_rate": 0.22799236394057476,
+      "donor_rate": 0.18381368088924396,
+      "difference": -0.0441786830513308,
+      "known_health_donor_n": 88009
+    },
+    {
+      "pattern": "income_only",
+      "group": 0,
+      "recipient_n": 545,
+      "recipient_weight": 241258.78590579145,
+      "recipient_rate": 0.47145798890230534,
+      "donor_rate": 0.43551137103995785,
+      "difference": -0.035946617862347485,
+      "known_health_donor_n": 2101
+    },
+    {
+      "pattern": "income_only",
+      "group": 0,
+      "recipient_n": 39,
+      "recipient_weight": 30118.54394412172,
+      "recipient_rate": 0.6363988195322803,
+      "donor_rate": 0.5392392456595444,
+      "difference": -0.09715957387273588,
+      "known_health_donor_n": 113
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 59,
+      "recipient_weight": 38115.93312340735,
+      "recipient_rate": 0.4857641949076252,
+      "donor_rate": 0.5415408182162109,
+      "difference": 0.05577662330858574,
+      "known_health_donor_n": 962
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 41,
+      "recipient_weight": 15330.829958736274,
+      "recipient_rate": 0.46091341516538187,
+      "donor_rate": 0.3977227629670107,
+      "difference": -0.06319065219837117,
+      "known_health_donor_n": 807
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 0,
+      "recipient_n": 12,
+      "recipient_weight": 19306.30647496904,
+      "recipient_rate": 0.7952381849063991,
+      "donor_rate": 0.3032927160634869,
+      "difference": -0.4919454688429122,
+      "known_health_donor_n": 445
+    },
+    {
+      "pattern": "both",
+      "group": 0,
+      "recipient_n": 54,
+      "recipient_weight": 22992.182808334986,
+      "recipient_rate": 0.4190988656475224,
+      "donor_rate": 0.4422000315166984,
+      "difference": 0.023101165869175988,
+      "known_health_donor_n": 2214
+    },
+    {
+      "pattern": "income_only",
+      "group": 1,
+      "recipient_n": 6470,
+      "recipient_weight": 2861304.1099497066,
+      "recipient_rate": 0.4156920421238381,
+      "donor_rate": 0.38431422911526647,
+      "difference": -0.03137781300857162,
+      "known_health_donor_n": 24088
+    },
+    {
+      "pattern": "income_only",
+      "group": 1,
+      "recipient_n": 48,
+      "recipient_weight": 28562.753803236075,
+      "recipient_rate": 0.6114042653304773,
+      "donor_rate": 0.5906604064910035,
+      "difference": -0.020743858839473828,
+      "known_health_donor_n": 98
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 242,
+      "recipient_weight": 147181.9330934982,
+      "recipient_rate": 0.6738204610278107,
+      "donor_rate": 0.5818368170414353,
+      "difference": -0.09198364398637537,
+      "known_health_donor_n": 4556
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 249,
+      "recipient_weight": 145710.74976661504,
+      "recipient_rate": 0.4746209970900823,
+      "donor_rate": 0.41019766392914053,
+      "difference": -0.06442333316094179,
+      "known_health_donor_n": 8430
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 176,
+      "recipient_weight": 73447.85551169039,
+      "recipient_rate": 0.4323440016482505,
+      "donor_rate": 0.2736825761529266,
+      "difference": -0.15866142549532386,
+      "known_health_donor_n": 11200
+    },
+    {
+      "pattern": "both",
+      "group": 1,
+      "recipient_n": 533,
+      "recipient_weight": 289394.1423286429,
+      "recipient_rate": 0.46229551685354464,
+      "donor_rate": 0.38529780156402244,
+      "difference": -0.0769977152895222,
+      "known_health_donor_n": 24186
+    },
+    {
+      "pattern": "income_only",
+      "group": 1,
+      "recipient_n": 270,
+      "recipient_weight": 130342.41041371075,
+      "recipient_rate": 0.5588949109105064,
+      "donor_rate": 0.671051746020152,
+      "difference": 0.11215683510964569,
+      "known_health_donor_n": 925
+    },
+    {
+      "pattern": "income_only",
+      "group": 1,
+      "recipient_n": 23,
+      "recipient_weight": 12266.216295068969,
+      "recipient_rate": 0.7869654440105086,
+      "donor_rate": 0.7362803869991976,
+      "difference": -0.050685057011310986,
+      "known_health_donor_n": 43
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 26,
+      "recipient_weight": 14637.285245596366,
+      "recipient_rate": 0.7069955191119297,
+      "donor_rate": 0.7439258842418696,
+      "difference": 0.03693036512993986,
+      "known_health_donor_n": 463
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 23,
+      "recipient_weight": 8668.152222275467,
+      "recipient_rate": 0.8546115192026551,
+      "donor_rate": 0.677027279973682,
+      "difference": -0.17758423922897315,
+      "known_health_donor_n": 350
+    },
+    {
+      "pattern": "insurance_only",
+      "group": 1,
+      "recipient_n": 5,
+      "recipient_weight": 2805.603327423764,
+      "recipient_rate": 0.5615755844576049,
+      "donor_rate": 0.46900699909497406,
+      "difference": -0.09256858536263085,
+      "known_health_donor_n": 155
+    },
+    {
+      "pattern": "both",
+      "group": 1,
+      "recipient_n": 31,
+      "recipient_weight": 14604.261613201448,
+      "recipient_rate": 0.42902438035414947,
+      "donor_rate": 0.6738628869362602,
+      "difference": 0.2448385065821107,
+      "known_health_donor_n": 968
+    }
+  ],
+  "limitation": "An auxiliary-variable diagnostic, not a test of donor exchangeability for missing covariates."
+}

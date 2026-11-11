@@ -1,0 +1,189 @@
+{
+  "reference_weights_2023": [
+    0.45758120927927987,
+    0.3035548624904732,
+    0.23886392823024694
+  ],
+  "geography": "44 states and DC; excludes CA, KY, MS, NV, PA, TN",
+  "2025_source": "https://github.com/muntasirmasum/brfssdata/releases/download/data-2025/brfss_2025.parquet",
+  "2025_sha256": "6cd8bd7137b69d15f3d08d8739a14f820df0af71d7d2b0eddeefa1eb50d754d7",
+  "2025_codebook_check": {
+    "diabetes_yes_n": 51827,
+    "diabetes_yes_weighted_all": 0.12512531732151033,
+    "cost_yes_n": 34602,
+    "cost_yes_weighted_all": 0.12685803017540145
+  },
+  "years": {
+    "2023": {
+      "n": 379334,
+      "age_rows": [
+        {
+          "label": "18\u201344",
+          "weight": 90668843.16380572,
+          "groups": {
+            "diabetes": {
+              "n": 3813,
+              "unweighted_rate": 0.1924993443482822,
+              "weighted_rate": 0.2218508431090078
+            },
+            "no_diabetes": {
+              "n": 109280,
+              "unweighted_rate": 0.14256954612005857,
+              "weighted_rate": 0.1572583013349128
+            }
+          }
+        },
+        {
+          "label": "45\u201364",
+          "weight": 60148816.56112975,
+          "groups": {
+            "diabetes": {
+              "n": 18423,
+              "unweighted_rate": 0.12576670466264994,
+              "weighted_rate": 0.15079189272342433
+            },
+            "no_diabetes": {
+              "n": 100895,
+              "unweighted_rate": 0.0869418702611626,
+              "weighted_rate": 0.10139995963136807
+            }
+          }
+        },
+        {
+          "label": "65+",
+          "weight": 47330431.42289606,
+          "groups": {
+            "diabetes": {
+              "n": 31559,
+              "unweighted_rate": 0.04014702620488609,
+              "weighted_rate": 0.04668645872832137
+            },
+            "no_diabetes": {
+              "n": 115364,
+              "unweighted_rate": 0.024132311639679622,
+              "weighted_rate": 0.030719409968524625
+            }
+          }
+        }
+      ],
+      "standardized_rates": {
+        "diabetes": 0.15844010025679098,
+        "no_diabetes": 0.11007665343447146
+      }
+    },
+    "2024": {
+      "n": 402275,
+      "age_rows": [
+        {
+          "label": "18\u201344",
+          "weight": 92536482.57313868,
+          "groups": {
+            "diabetes": {
+              "n": 4529,
+              "unweighted_rate": 0.22565687789799072,
+              "weighted_rate": 0.2569218533346505
+            },
+            "no_diabetes": {
+              "n": 119997,
+              "unweighted_rate": 0.1571872630149087,
+              "weighted_rate": 0.16804547650548668
+            }
+          }
+        },
+        {
+          "label": "45\u201364",
+          "weight": 59745613.95519376,
+          "groups": {
+            "diabetes": {
+              "n": 20298,
+              "unweighted_rate": 0.13641738102276085,
+              "weighted_rate": 0.16198408510090687
+            },
+            "no_diabetes": {
+              "n": 103131,
+              "unweighted_rate": 0.09809853487312253,
+              "weighted_rate": 0.11157113791766807
+            }
+          }
+        },
+        {
+          "label": "65+",
+          "weight": 47549209.40242405,
+          "groups": {
+            "diabetes": {
+              "n": 34538,
+              "unweighted_rate": 0.04180902194684116,
+              "weighted_rate": 0.054562428174139456
+            },
+            "no_diabetes": {
+              "n": 119782,
+              "unweighted_rate": 0.025688333806414988,
+              "weighted_rate": 0.031588471275457435
+            }
+          }
+        }
+      ],
+      "standardized_rates": {
+        "diabetes": 0.1797666649450497,
+        "no_diabetes": 0.11830776011744085
+      }
+    },
+    "2025": {
+      "n": 314576,
+      "age_rows": [
+        {
+          "label": "18\u201344",
+          "weight": 93141141.44604635,
+          "groups": {
+            "diabetes": {
+              "n": 3380,
+              "unweighted_rate": 0.23846153846153847,
+              "weighted_rate": 0.2583277233351524
+            },
+            "no_diabetes": {
+              "n": 91100,
+              "unweighted_rate": 0.16265642151481888,
+              "weighted_rate": 0.16978589903996816
+            }
+          }
+        },
+        {
+          "label": "45\u201364",
+          "weight": 59715190.009306565,
+          "groups": {
+            "diabetes": {
+              "n": 15095,
+              "unweighted_rate": 0.15071215634316,
+              "weighted_rate": 0.16561714601671187
+            },
+            "no_diabetes": {
+              "n": 77161,
+              "unweighted_rate": 0.10380891901349128,
+              "weighted_rate": 0.11755859791126178
+            }
+          }
+        },
+        {
+          "label": "65+",
+          "weight": 49043929.09740729,
+          "groups": {
+            "diabetes": {
+              "n": 28428,
+              "unweighted_rate": 0.04168425495989869,
+              "weighted_rate": 0.05620823015660285
+            },
+            "no_diabetes": {
+              "n": 99412,
+              "unweighted_rate": 0.02822596869593208,
+              "weighted_rate": 0.03566874272795277
+            }
+          }
+        }
+      ],
+      "standardized_rates": {
+        "diabetes": 0.18190592067330585,
+        "no_diabetes": 0.1218962970278371
+      }
+    }
+  }
+}

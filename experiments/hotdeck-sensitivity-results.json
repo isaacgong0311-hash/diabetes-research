@@ -1,0 +1,749 @@
+{
+  "seed": 725199,
+  "draws": 200,
+  "domain_n": 402094,
+  "complete_n": 316267,
+  "recipient_n": 85827,
+  "varying_reference": {
+    "mean": 0.03383580555402314,
+    "sd_between_draws": 0.0008535662484248386,
+    "minimum": 0.03169814874075445,
+    "maximum": 0.03664420667025549,
+    "draw_percentile_2_5": 0.032257346293187494,
+    "draw_percentile_97_5": 0.03539524607551701
+  },
+  "fixed_reference": {
+    "mean": 0.03329447910613671,
+    "sd_between_draws": 0.0008400164177548678,
+    "minimum": 0.03127998176130771,
+    "maximum": 0.03599334491957143,
+    "draw_percentile_2_5": 0.03171393570580287,
+    "draw_percentile_97_5": 0.03485311268795327
+  },
+  "min_group_cell_n_over_draws": 25,
+  "donor_pools": [
+    {
+      "age": 0,
+      "group": 0,
+      "event": 0,
+      "pattern": "income_only",
+      "known_value": 0,
+      "weight_only_ess": 19987.705143044856,
+      "donors": 74033,
+      "recipients": 13115
+    },
+    {
+      "age": 0,
+      "group": 0,
+      "event": 0,
+      "pattern": "income_only",
+      "known_value": 1,
+      "weight_only_ess": 1301.5557627047424,
+      "donors": 5374,
+      "recipients": 1796
+    },
+    {
+      "age": 0,
+      "group": 0,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 0,
+      "weight_only_ess": 2247.593669443375,
+      "donors": 7848,
+      "recipients": 576
+    },
+    {
+      "age": 0,
+      "group": 0,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 1,
+      "weight_only_ess": 4515.867568583529,
+      "donors": 16301,
+      "recipients": 944
+    },
+    {
+      "age": 0,
+      "group": 0,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 2,
+      "weight_only_ess": 14348.013620211213,
+      "donors": 55258,
+      "recipients": 1733
+    },
+    {
+      "age": 0,
+      "group": 0,
+      "event": 0,
+      "pattern": "both",
+      "known_value": null,
+      "weight_only_ess": 21059.714918568272,
+      "donors": 79407,
+      "recipients": 2656
+    },
+    {
+      "age": 0,
+      "group": 0,
+      "event": 1,
+      "pattern": "income_only",
+      "known_value": 0,
+      "weight_only_ess": 2436.8428642877793,
+      "donors": 9288,
+      "recipients": 1702
+    },
+    {
+      "age": 0,
+      "group": 0,
+      "event": 1,
+      "pattern": "income_only",
+      "known_value": 1,
+      "weight_only_ess": 992.7343186722479,
+      "donors": 3940,
+      "recipients": 1117
+    },
+    {
+      "age": 0,
+      "group": 0,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 0,
+      "weight_only_ess": 807.8481212810052,
+      "donors": 2817,
+      "recipients": 182
+    },
+    {
+      "age": 0,
+      "group": 0,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 1,
+      "weight_only_ess": 1414.2396567970304,
+      "donors": 4777,
+      "recipients": 183
+    },
+    {
+      "age": 0,
+      "group": 0,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 2,
+      "weight_only_ess": 1218.9915126355713,
+      "donors": 5634,
+      "recipients": 127
+    },
+    {
+      "age": 0,
+      "group": 0,
+      "event": 1,
+      "pattern": "both",
+      "known_value": null,
+      "weight_only_ess": 3397.3892654917827,
+      "donors": 13228,
+      "recipients": 334
+    },
+    {
+      "age": 0,
+      "group": 1,
+      "event": 0,
+      "pattern": "income_only",
+      "known_value": 0,
+      "weight_only_ess": 504.8598917744017,
+      "donors": 2578,
+      "recipients": 432
+    },
+    {
+      "age": 0,
+      "group": 1,
+      "event": 0,
+      "pattern": "income_only",
+      "known_value": 1,
+      "weight_only_ess": 15.269718692368912,
+      "donors": 125,
+      "recipients": 43
+    },
+    {
+      "age": 0,
+      "group": 1,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 0,
+      "weight_only_ess": 157.52574695737385,
+      "donors": 533,
+      "recipients": 34
+    },
+    {
+      "age": 0,
+      "group": 1,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 1,
+      "weight_only_ess": 233.11689146952116,
+      "donors": 706,
+      "recipients": 26
+    },
+    {
+      "age": 0,
+      "group": 1,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 2,
+      "weight_only_ess": 193.42458322294445,
+      "donors": 1464,
+      "recipients": 22
+    },
+    {
+      "age": 0,
+      "group": 1,
+      "event": 0,
+      "pattern": "both",
+      "known_value": null,
+      "weight_only_ess": 492.89347845031955,
+      "donors": 2703,
+      "recipients": 51
+    },
+    {
+      "age": 0,
+      "group": 1,
+      "event": 1,
+      "pattern": "income_only",
+      "known_value": 0,
+      "weight_only_ess": 125.73087697254839,
+      "donors": 476,
+      "recipients": 69
+    },
+    {
+      "age": 0,
+      "group": 1,
+      "event": 1,
+      "pattern": "income_only",
+      "known_value": 1,
+      "weight_only_ess": 53.34009778955183,
+      "donors": 182,
+      "recipients": 43
+    },
+    {
+      "age": 0,
+      "group": 1,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 0,
+      "weight_only_ess": 67.5344255387588,
+      "donors": 203,
+      "recipients": 10
+    },
+    {
+      "age": 0,
+      "group": 1,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 1,
+      "weight_only_ess": 64.2239135894956,
+      "donors": 244,
+      "recipients": 8
+    },
+    {
+      "age": 0,
+      "group": 1,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 2,
+      "weight_only_ess": 48.614062518901726,
+      "donors": 211,
+      "recipients": 2
+    },
+    {
+      "age": 0,
+      "group": 1,
+      "event": 1,
+      "pattern": "both",
+      "known_value": null,
+      "weight_only_ess": 178.81490996566382,
+      "donors": 658,
+      "recipients": 14
+    },
+    {
+      "age": 1,
+      "group": 0,
+      "event": 0,
+      "pattern": "income_only",
+      "known_value": 0,
+      "weight_only_ess": 15206.34384948336,
+      "donors": 77669,
+      "recipients": 13009
+    },
+    {
+      "age": 1,
+      "group": 0,
+      "event": 0,
+      "pattern": "income_only",
+      "known_value": 1,
+      "weight_only_ess": 533.2483483281057,
+      "donors": 3117,
+      "recipients": 714
+    },
+    {
+      "age": 1,
+      "group": 0,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 0,
+      "weight_only_ess": 1564.3499091885642,
+      "donors": 7709,
+      "recipients": 399
+    },
+    {
+      "age": 1,
+      "group": 0,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 1,
+      "weight_only_ess": 2465.430693891453,
+      "donors": 12595,
+      "recipients": 427
+    },
+    {
+      "age": 1,
+      "group": 0,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 2,
+      "weight_only_ess": 11645.958819339347,
+      "donors": 60482,
+      "recipients": 819
+    },
+    {
+      "age": 1,
+      "group": 0,
+      "event": 0,
+      "pattern": "both",
+      "known_value": null,
+      "weight_only_ess": 15673.79938355216,
+      "donors": 80786,
+      "recipients": 1012
+    },
+    {
+      "age": 1,
+      "group": 0,
+      "event": 1,
+      "pattern": "income_only",
+      "known_value": 0,
+      "weight_only_ess": 1058.1703597702458,
+      "donors": 5629,
+      "recipients": 962
+    },
+    {
+      "age": 1,
+      "group": 0,
+      "event": 1,
+      "pattern": "income_only",
+      "known_value": 1,
+      "weight_only_ess": 196.33789740678458,
+      "donors": 1993,
+      "recipients": 471
+    },
+    {
+      "age": 1,
+      "group": 0,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 0,
+      "weight_only_ess": 230.25885073848121,
+      "donors": 2256,
+      "recipients": 109
+    },
+    {
+      "age": 1,
+      "group": 0,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 1,
+      "weight_only_ess": 562.1653735490938,
+      "donors": 2539,
+      "recipients": 75
+    },
+    {
+      "age": 1,
+      "group": 0,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 2,
+      "weight_only_ess": 415.32317164267516,
+      "donors": 2827,
+      "recipients": 55
+    },
+    {
+      "age": 1,
+      "group": 0,
+      "event": 1,
+      "pattern": "both",
+      "known_value": null,
+      "weight_only_ess": 1066.3695542734877,
+      "donors": 7622,
+      "recipients": 124
+    },
+    {
+      "age": 1,
+      "group": 1,
+      "event": 0,
+      "pattern": "income_only",
+      "known_value": 0,
+      "weight_only_ess": 2645.6680163836945,
+      "donors": 13823,
+      "recipients": 2274
+    },
+    {
+      "age": 1,
+      "group": 1,
+      "event": 0,
+      "pattern": "income_only",
+      "known_value": 1,
+      "weight_only_ess": 65.61919241003623,
+      "donors": 376,
+      "recipients": 108
+    },
+    {
+      "age": 1,
+      "group": 1,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 0,
+      "weight_only_ess": 761.7621957923267,
+      "donors": 3105,
+      "recipients": 154
+    },
+    {
+      "age": 1,
+      "group": 1,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 1,
+      "weight_only_ess": 537.2104653745378,
+      "donors": 3222,
+      "recipients": 108
+    },
+    {
+      "age": 1,
+      "group": 1,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 2,
+      "weight_only_ess": 1486.4020156301315,
+      "donors": 7872,
+      "recipients": 93
+    },
+    {
+      "age": 1,
+      "group": 1,
+      "event": 0,
+      "pattern": "both",
+      "known_value": null,
+      "weight_only_ess": 2705.698753237753,
+      "donors": 14199,
+      "recipients": 200
+    },
+    {
+      "age": 1,
+      "group": 1,
+      "event": 1,
+      "pattern": "income_only",
+      "known_value": 0,
+      "weight_only_ess": 306.4138783194863,
+      "donors": 1624,
+      "recipients": 279
+    },
+    {
+      "age": 1,
+      "group": 1,
+      "event": 1,
+      "pattern": "income_only",
+      "known_value": 1,
+      "weight_only_ess": 91.44857986697617,
+      "donors": 405,
+      "recipients": 98
+    },
+    {
+      "age": 1,
+      "group": 1,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 0,
+      "weight_only_ess": 171.95548228043967,
+      "donors": 784,
+      "recipients": 49
+    },
+    {
+      "age": 1,
+      "group": 1,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 1,
+      "weight_only_ess": 182.9652282677631,
+      "donors": 711,
+      "recipients": 22
+    },
+    {
+      "age": 1,
+      "group": 1,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 2,
+      "weight_only_ess": 71.22307898023175,
+      "donors": 534,
+      "recipients": 10
+    },
+    {
+      "age": 1,
+      "group": 1,
+      "event": 1,
+      "pattern": "both",
+      "known_value": null,
+      "weight_only_ess": 397.70059680323834,
+      "donors": 2029,
+      "recipients": 40
+    },
+    {
+      "age": 2,
+      "group": 0,
+      "event": 0,
+      "pattern": "income_only",
+      "known_value": 0,
+      "weight_only_ess": 15484.638287064494,
+      "donors": 87811,
+      "recipients": 25790
+    },
+    {
+      "age": 2,
+      "group": 0,
+      "event": 0,
+      "pattern": "income_only",
+      "known_value": 1,
+      "weight_only_ess": 74.67252010786737,
+      "donors": 372,
+      "recipients": 180
+    },
+    {
+      "age": 2,
+      "group": 0,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 0,
+      "weight_only_ess": 1907.6776968937957,
+      "donors": 11268,
+      "recipients": 530
+    },
+    {
+      "age": 2,
+      "group": 0,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 1,
+      "weight_only_ess": 4323.489054992785,
+      "donors": 26248,
+      "recipients": 730
+    },
+    {
+      "age": 2,
+      "group": 0,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 2,
+      "weight_only_ess": 9465.66655436101,
+      "donors": 50667,
+      "recipients": 795
+    },
+    {
+      "age": 2,
+      "group": 0,
+      "event": 0,
+      "pattern": "both",
+      "known_value": null,
+      "weight_only_ess": 15554.731675455456,
+      "donors": 88183,
+      "recipients": 2043
+    },
+    {
+      "age": 2,
+      "group": 0,
+      "event": 1,
+      "pattern": "income_only",
+      "known_value": 0,
+      "weight_only_ess": 272.5529577469028,
+      "donors": 2117,
+      "recipients": 551
+    },
+    {
+      "age": 2,
+      "group": 0,
+      "event": 1,
+      "pattern": "income_only",
+      "known_value": 1,
+      "weight_only_ess": 27.734090090016245,
+      "donors": 116,
+      "recipients": 41
+    },
+    {
+      "age": 2,
+      "group": 0,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 0,
+      "weight_only_ess": 159.21189990894223,
+      "donors": 973,
+      "recipients": 61
+    },
+    {
+      "age": 2,
+      "group": 0,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 1,
+      "weight_only_ess": 92.33930575549894,
+      "donors": 813,
+      "recipients": 42
+    },
+    {
+      "age": 2,
+      "group": 0,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 2,
+      "weight_only_ess": 68.52373277538219,
+      "donors": 447,
+      "recipients": 12
+    },
+    {
+      "age": 2,
+      "group": 0,
+      "event": 1,
+      "pattern": "both",
+      "known_value": null,
+      "weight_only_ess": 297.58673357174825,
+      "donors": 2233,
+      "recipients": 58
+    },
+    {
+      "age": 2,
+      "group": 1,
+      "event": 0,
+      "pattern": "income_only",
+      "known_value": 0,
+      "weight_only_ess": 4357.5947882759365,
+      "donors": 24149,
+      "recipients": 6520
+    },
+    {
+      "age": 2,
+      "group": 1,
+      "event": 0,
+      "pattern": "income_only",
+      "known_value": 1,
+      "weight_only_ess": 34.63870331725111,
+      "donors": 98,
+      "recipients": 49
+    },
+    {
+      "age": 2,
+      "group": 1,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 0,
+      "weight_only_ess": 725.1018612523102,
+      "donors": 4575,
+      "recipients": 245
+    },
+    {
+      "age": 2,
+      "group": 1,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 1,
+      "weight_only_ess": 1590.861625246753,
+      "donors": 8454,
+      "recipients": 249
+    },
+    {
+      "age": 2,
+      "group": 1,
+      "event": 0,
+      "pattern": "insurance_only",
+      "known_value": 2,
+      "weight_only_ess": 2138.4546586546057,
+      "donors": 11218,
+      "recipients": 177
+    },
+    {
+      "age": 2,
+      "group": 1,
+      "event": 0,
+      "pattern": "both",
+      "known_value": null,
+      "weight_only_ess": 4386.7335343025325,
+      "donors": 24247,
+      "recipients": 541
+    },
+    {
+      "age": 2,
+      "group": 1,
+      "event": 1,
+      "pattern": "income_only",
+      "known_value": 0,
+      "weight_only_ess": 186.48722703441388,
+      "donors": 928,
+      "recipients": 273
+    },
+    {
+      "age": 2,
+      "group": 1,
+      "event": 1,
+      "pattern": "income_only",
+      "known_value": 1,
+      "weight_only_ess": 19.34950238128577,
+      "donors": 44,
+      "recipients": 23
+    },
+    {
+      "age": 2,
+      "group": 1,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 0,
+      "weight_only_ess": 85.84056804700593,
+      "donors": 463,
+      "recipients": 27
+    },
+    {
+      "age": 2,
+      "group": 1,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 1,
+      "weight_only_ess": 112.50935292361125,
+      "donors": 353,
+      "recipients": 23
+    },
+    {
+      "age": 2,
+      "group": 1,
+      "event": 1,
+      "pattern": "insurance_only",
+      "known_value": 2,
+      "weight_only_ess": 27.30928022201774,
+      "donors": 156,
+      "recipients": 5
+    },
+    {
+      "age": 2,
+      "group": 1,
+      "event": 1,
+      "pattern": "both",
+      "known_value": null,
+      "weight_only_ess": 199.8206390515307,
+      "donors": 972,
+      "recipients": 32
+    }
+  ],
+  "minimum_donor_n": 44,
+  "minimum_donor_weight_only_ess": 15.269718692368912,
+  "not_included": "Sampling variance, donor-distribution estimation uncertainty, missing-age cases, and nonignorable missingness."
+}

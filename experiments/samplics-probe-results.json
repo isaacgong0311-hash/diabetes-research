@@ -1,0 +1,56 @@
+{
+  "age65_fair_poor": {
+    "ours_skip": {
+      "estimate": 0.25426399888864637,
+      "se": 0.002715493996175103,
+      "normal_ci": [
+        0.24894172845590842,
+        0.25958626932138434
+      ],
+      "full_sample_singletons": 101,
+      "n_strata": 2146
+    },
+    "samplics_point": 0.25426399888864637,
+    "samplics_se": 0.002715493996175103,
+    "point_abs_difference": 0.0,
+    "se_abs_difference": 0.0
+  },
+  "diabetes_cost": {
+    "ours_skip": {
+      "estimate": 0.11168920525250978,
+      "se": 0.0033078966519037496,
+      "normal_ci": [
+        0.1052058469501978,
+        0.11817256355482175
+      ],
+      "full_sample_singletons": 101,
+      "n_strata": 2146
+    },
+    "samplics_point": 0.11168920525250978,
+    "samplics_se": 0.0033078966519037474,
+    "point_abs_difference": 0.0,
+    "se_abs_difference": 2.168404344971009e-18
+  },
+  "no_diabetes_cost": {
+    "ours_skip": {
+      "estimate": 0.11448607027688297,
+      "se": 0.0013286037685902273,
+      "normal_ci": [
+        0.11188205474072194,
+        0.117090085813044
+      ],
+      "full_sample_singletons": 101,
+      "n_strata": 2146
+    },
+    "samplics_point": 0.11448607027688297,
+    "samplics_se": 0.0013286037685902275,
+    "point_abs_difference": 0.0,
+    "se_abs_difference": 2.168404344971009e-19
+  },
+  "contrast_score_check": {
+    "contrast": 0.04900768333606145,
+    "ours_skip_score_se": 0.006677541686337584,
+    "samplics_score_se": 0.006677541686337587,
+    "se_abs_difference": 2.6020852139652106e-18
+  }
+}

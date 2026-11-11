@@ -1,0 +1,22 @@
+{
+  "seed": 483027,
+  "attempted_samples": 1500,
+  "valid_samples": 1500,
+  "excluded_missing_age_group": 0,
+  "population_size": 9000,
+  "sample_size": 720,
+  "true_contrast": 0.05388475991402208,
+  "mean_estimate": 0.05570116018873549,
+  "empirical_bias": 0.0018164002747134145,
+  "empirical_sd": 0.041785574374695385,
+  "cluster_psu": {
+    "mean_standard_error": 0.03975353183071368,
+    "coverage": 0.9193333333333333,
+    "coverage_monte_carlo_se": 0.007031337262832988
+  },
+  "row_psu": {
+    "mean_standard_error": 0.03831989470142112,
+    "coverage": 0.924,
+    "coverage_monte_carlo_se": 0.006842221861354685
+  }
+}

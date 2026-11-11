@@ -1,0 +1,24 @@
+{
+  "source": "https://github.com/muntasirmasum/brfssdata/releases/download/data-2023/brfss_2023.parquet",
+  "original_cdc": "https://www.cdc.gov/brfss/annual_data/annual_2023.html",
+  "mirror_description": "https://muntasirmasum.github.io/brfssdata/articles/datasets.html",
+  "mirror_sha256": "128ef26a1c0a84e271e1e35e6584f3c7bfd7690c8cd7ba602313c0d738021ffe",
+  "n_rows": 433323,
+  "fields": [
+    "_STATE",
+    "_LLCPWT",
+    "_STSTR",
+    "_PSU",
+    "_AGEG5YR",
+    "_AGE_G",
+    "SEXVAR",
+    "DIABETE4",
+    "MEDCOST1",
+    "GENHLTH",
+    "CHECKUP1",
+    "_HLTHPL1",
+    "_INCOMG1"
+  ],
+  "duckdb_version": "2.0.0",
+  "caveat": "Converted third-party copy; not independently compared row-by-row with CDC XPT."
+}

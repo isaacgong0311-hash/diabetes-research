@@ -1,0 +1,375 @@
+{
+  "complete_n": 316267,
+  "results": {
+    "age_only": {
+      "contrast": 0.049267988419676466,
+      "standard_error_centered": 0.007425303743250583,
+      "standard_error_skip": 0.007425231943414626,
+      "normal_95_low": 0.03471466050863488,
+      "normal_95_high": 0.06382131633071805,
+      "smallest_group_n": 3361
+    },
+    "age_income": {
+      "contrast": 0.0270321254272453,
+      "standard_error_centered": 0.007106032656609006,
+      "standard_error_skip": 0.007105974202901103,
+      "normal_95_low": 0.013104557347326165,
+      "normal_95_high": 0.040959693507164434,
+      "smallest_group_n": 736
+    },
+    "age_income_insurance": {
+      "contrast": 0.03466867683343177,
+      "standard_error_centered": 0.006896658823864766,
+      "standard_error_skip": 0.006896605525918769,
+      "normal_95_low": 0.02115147392499646,
+      "normal_95_high": 0.04818587974186708,
+      "smallest_group_n": 23
+    }
+  },
+  "comparisons": {
+    "age_income": {
+      "difference_from_age_only": -0.022235862992431167,
+      "se": 0.0024843196653727023,
+      "normal_95_low": -0.027105040062646264,
+      "normal_95_high": -0.01736668592221607
+    },
+    "age_income_insurance": {
+      "difference_from_age_only": -0.014599311586244695,
+      "se": 0.0031859795571809466,
+      "normal_95_low": -0.02084371677380022,
+      "normal_95_high": -0.00835490639868917
+    }
+  },
+  "joint_cells": [
+    {
+      "age": 0,
+      "income": 0,
+      "insurance": 0,
+      "diabetes": 0,
+      "n": 8112,
+      "events": 1560,
+      "weight_only_effective_n": 2444.758512205845
+    },
+    {
+      "age": 0,
+      "income": 0,
+      "insurance": 0,
+      "diabetes": 1,
+      "n": 617,
+      "events": 123,
+      "weight_only_effective_n": 177.8989945481014
+    },
+    {
+      "age": 0,
+      "income": 0,
+      "insurance": 1,
+      "diabetes": 0,
+      "n": 2553,
+      "events": 1257,
+      "weight_only_effective_n": 681.534821569735
+    },
+    {
+      "age": 0,
+      "income": 0,
+      "insurance": 1,
+      "diabetes": 1,
+      "n": 119,
+      "events": 80,
+      "weight_only_effective_n": 49.40770056213674
+    },
+    {
+      "age": 0,
+      "income": 1,
+      "insurance": 0,
+      "diabetes": 0,
+      "n": 17498,
+      "events": 3183,
+      "weight_only_effective_n": 5085.060456878376
+    },
+    {
+      "age": 0,
+      "income": 1,
+      "insurance": 0,
+      "diabetes": 1,
+      "n": 823,
+      "events": 169,
+      "weight_only_effective_n": 254.48896809463162
+    },
+    {
+      "age": 0,
+      "income": 1,
+      "insurance": 1,
+      "diabetes": 0,
+      "n": 3580,
+      "events": 1594,
+      "weight_only_effective_n": 912.5954032715185
+    },
+    {
+      "age": 0,
+      "income": 1,
+      "insurance": 1,
+      "diabetes": 1,
+      "n": 127,
+      "events": 75,
+      "weight_only_effective_n": 36.17979647969888
+    },
+    {
+      "age": 0,
+      "income": 2,
+      "insurance": 0,
+      "diabetes": 0,
+      "n": 57711,
+      "events": 4545,
+      "weight_only_effective_n": 14867.75318385095
+    },
+    {
+      "age": 0,
+      "income": 2,
+      "insurance": 0,
+      "diabetes": 1,
+      "n": 1614,
+      "events": 184,
+      "weight_only_effective_n": 249.3639334428075
+    },
+    {
+      "age": 0,
+      "income": 2,
+      "insurance": 1,
+      "diabetes": 0,
+      "n": 3181,
+      "events": 1089,
+      "weight_only_effective_n": 706.8017610714024
+    },
+    {
+      "age": 0,
+      "income": 2,
+      "insurance": 1,
+      "diabetes": 1,
+      "n": 61,
+      "events": 27,
+      "weight_only_effective_n": 7.514557770542702
+    },
+    {
+      "age": 1,
+      "income": 0,
+      "insurance": 0,
+      "diabetes": 0,
+      "n": 8551,
+      "events": 1539,
+      "weight_only_effective_n": 1711.2597601260015
+    },
+    {
+      "age": 1,
+      "income": 0,
+      "insurance": 0,
+      "diabetes": 1,
+      "n": 3590,
+      "events": 602,
+      "weight_only_effective_n": 808.5783909276068
+    },
+    {
+      "age": 1,
+      "income": 0,
+      "insurance": 1,
+      "diabetes": 0,
+      "n": 1414,
+      "events": 717,
+      "weight_only_effective_n": 134.5937019237472
+    },
+    {
+      "age": 1,
+      "income": 0,
+      "insurance": 1,
+      "diabetes": 1,
+      "n": 299,
+      "events": 182,
+      "weight_only_effective_n": 89.02181934686371
+    },
+    {
+      "age": 1,
+      "income": 1,
+      "insurance": 0,
+      "diabetes": 0,
+      "n": 13174,
+      "events": 1736,
+      "weight_only_effective_n": 2614.7030835192677
+    },
+    {
+      "age": 1,
+      "income": 1,
+      "insurance": 0,
+      "diabetes": 1,
+      "n": 3634,
+      "events": 555,
+      "weight_only_effective_n": 660.583297959898
+    },
+    {
+      "age": 1,
+      "income": 1,
+      "insurance": 1,
+      "diabetes": 0,
+      "n": 1960,
+      "events": 803,
+      "weight_only_effective_n": 416.66668208750485
+    },
+    {
+      "age": 1,
+      "income": 1,
+      "insurance": 1,
+      "diabetes": 1,
+      "n": 299,
+      "events": 156,
+      "weight_only_effective_n": 52.15576146966994
+    },
+    {
+      "age": 1,
+      "income": 2,
+      "insurance": 0,
+      "diabetes": 0,
+      "n": 61573,
+      "events": 2354,
+      "weight_only_effective_n": 11919.255896917037
+    },
+    {
+      "age": 1,
+      "income": 2,
+      "insurance": 0,
+      "diabetes": 1,
+      "n": 8223,
+      "events": 467,
+      "weight_only_effective_n": 1506.3057123189199
+    },
+    {
+      "age": 1,
+      "income": 2,
+      "insurance": 1,
+      "diabetes": 0,
+      "n": 1736,
+      "events": 473,
+      "weight_only_effective_n": 211.2621936632066
+    },
+    {
+      "age": 1,
+      "income": 2,
+      "insurance": 1,
+      "diabetes": 1,
+      "n": 183,
+      "events": 67,
+      "weight_only_effective_n": 28.0031230889453
+    },
+    {
+      "age": 2,
+      "income": 0,
+      "insurance": 0,
+      "diabetes": 0,
+      "n": 12047,
+      "events": 905,
+      "weight_only_effective_n": 2031.7583992330196
+    },
+    {
+      "age": 2,
+      "income": 0,
+      "insurance": 0,
+      "diabetes": 1,
+      "n": 4963,
+      "events": 438,
+      "weight_only_effective_n": 788.889582372344
+    },
+    {
+      "age": 2,
+      "income": 0,
+      "insurance": 1,
+      "diabetes": 0,
+      "n": 194,
+      "events": 68,
+      "weight_only_effective_n": 37.05247028795239
+    },
+    {
+      "age": 2,
+      "income": 0,
+      "insurance": 1,
+      "diabetes": 1,
+      "n": 75,
+      "events": 25,
+      "weight_only_effective_n": 30.592312297552844
+    },
+    {
+      "age": 2,
+      "income": 1,
+      "insurance": 0,
+      "diabetes": 0,
+      "n": 26892,
+      "events": 783,
+      "weight_only_effective_n": 4279.70074994671
+    },
+    {
+      "age": 2,
+      "income": 1,
+      "insurance": 0,
+      "diabetes": 1,
+      "n": 8763,
+      "events": 337,
+      "weight_only_effective_n": 1676.1259165764022
+    },
+    {
+      "age": 2,
+      "income": 1,
+      "insurance": 1,
+      "diabetes": 0,
+      "n": 169,
+      "events": 30,
+      "weight_only_effective_n": 49.93774736996973
+    },
+    {
+      "age": 2,
+      "income": 1,
+      "insurance": 1,
+      "diabetes": 1,
+      "n": 44,
+      "events": 16,
+      "weight_only_effective_n": 15.925533777213312
+    },
+    {
+      "age": 2,
+      "income": 2,
+      "insurance": 0,
+      "diabetes": 0,
+      "n": 50989,
+      "events": 429,
+      "weight_only_effective_n": 9504.426741559433
+    },
+    {
+      "age": 2,
+      "income": 2,
+      "insurance": 0,
+      "diabetes": 1,
+      "n": 11351,
+      "events": 153,
+      "weight_only_effective_n": 2152.6257018765455
+    },
+    {
+      "age": 2,
+      "income": 2,
+      "insurance": 1,
+      "diabetes": 0,
+      "n": 125,
+      "events": 18,
+      "weight_only_effective_n": 24.33911290150582
+    },
+    {
+      "age": 2,
+      "income": 2,
+      "insurance": 1,
+      "diabetes": 1,
+      "n": 23,
+      "events": 3,
+      "weight_only_effective_n": 7.694778442780492
+    }
+  ],
+  "minimum_group_n": 23,
+  "minimum_group_event_n": 3,
+  "minimum_weight_only_effective_n": 7.514557770542702,
+  "derivatives_checked": 14,
+  "max_derivative_error": 5.2137718852007277e-14,
+  "limitation": "Exploratory linearized uncertainty; complete-case selection and sparse-cell inference not validated."
+}

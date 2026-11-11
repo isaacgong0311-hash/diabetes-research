@@ -1,0 +1,62 @@
+{
+  "source": {
+    "source": "https://github.com/muntasirmasum/brfssdata/releases/download/data-2023/brfss_2023.parquet",
+    "original_cdc": "https://www.cdc.gov/brfss/annual_data/annual_2023.html",
+    "mirror_description": "https://muntasirmasum.github.io/brfssdata/articles/datasets.html",
+    "mirror_sha256": "128ef26a1c0a84e271e1e35e6584f3c7bfd7690c8cd7ba602313c0d738021ffe",
+    "n_rows": 433323,
+    "fields": [
+      "_STATE",
+      "_LLCPWT",
+      "_STSTR",
+      "_PSU",
+      "_AGEG5YR",
+      "_AGE_G",
+      "SEXVAR",
+      "DIABETE4",
+      "MEDCOST1",
+      "GENHLTH",
+      "CHECKUP1",
+      "_HLTHPL1",
+      "_INCOMG1"
+    ],
+    "duckdb_version": "2.0.0",
+    "caveat": "Converted third-party copy; not independently compared row-by-row with CDC XPT."
+  },
+  "domain_n": 23857,
+  "cost_known_n": 23778,
+  "cost_unknown_n": 79,
+  "insurance_known_n": 22935,
+  "insurance_unknown_n": 843,
+  "income_known_n": 20127,
+  "income_unknown_n": 3651,
+  "insurance_groups": {
+    "Any insurance": {
+      "n": 21555,
+      "unweighted_events": 2448,
+      "weighted_rate": 0.13139009408456284
+    },
+    "No insurance": {
+      "n": 1380,
+      "unweighted_events": 728,
+      "weighted_rate": 0.5631179466597449
+    }
+  },
+  "income_groups": {
+    "Below $25,000": {
+      "n": 4872,
+      "unweighted_events": 1046,
+      "weighted_rate": 0.27111680040398206
+    },
+    "$25,000 to < $50,000": {
+      "n": 5047,
+      "unweighted_events": 985,
+      "weighted_rate": 0.2181256569143432
+    },
+    "$50,000 or more": {
+      "n": 10208,
+      "unweighted_events": 757,
+      "weighted_rate": 0.08849686794298887
+    }
+  }
+}

@@ -1,0 +1,569 @@
+{
+  "base_n": 409306,
+  "complete_n": 316267,
+  "excluded_n": 93039,
+  "raw": {
+    "diabetes": {
+      "n": 44808,
+      "rate": 0.11445773899966283
+    },
+    "no_diabetes": {
+      "n": 271459,
+      "rate": 0.1158193052441188
+    }
+  },
+  "estimates": {
+    "age_only": {
+      "standardized_rates": [
+        0.16024364707646122,
+        0.11097565865678474
+      ],
+      "cells": [
+        {
+          "cell": [
+            "18\u201344"
+          ],
+          "population_weight": 82351189.2609156,
+          "groups": {
+            "diabetes": {
+              "n": 3361,
+              "weighted_rate": 0.2224866693910786
+            },
+            "no_diabetes": {
+              "n": 92635,
+              "weighted_rate": 0.1585036273196544
+            }
+          }
+        },
+        {
+          "cell": [
+            "45\u201364"
+          ],
+          "population_weight": 57806359.017712325,
+          "groups": {
+            "diabetes": {
+              "n": 16228,
+              "weighted_rate": 0.15009041513645752
+            },
+            "no_diabetes": {
+              "n": 88408,
+              "weighted_rate": 0.09894512591563923
+            }
+          }
+        },
+        {
+          "cell": [
+            "65+"
+          ],
+          "population_weight": 40132169.33953113,
+          "groups": {
+            "diabetes": {
+              "n": 25219,
+              "weighted_rate": 0.047145710563530105
+            },
+            "no_diabetes": {
+              "n": 90416,
+              "weighted_rate": 0.030777067334598108
+            }
+          }
+        }
+      ],
+      "smallest_group_n": 3361
+    },
+    "age_income": {
+      "standardized_rates": [
+        0.14066005920728988,
+        0.11362793378004458
+      ],
+      "cells": [
+        {
+          "cell": [
+            "18\u201344",
+            "25k\u2013<50k"
+          ],
+          "population_weight": 20075536.019308638,
+          "groups": {
+            "diabetes": {
+              "n": 950,
+              "weighted_rate": 0.29070121088720136
+            },
+            "no_diabetes": {
+              "n": 21078,
+              "weighted_rate": 0.2337159413985201
+            }
+          }
+        },
+        {
+          "cell": [
+            "18\u201344",
+            "50k+"
+          ],
+          "population_weight": 50506357.43804136,
+          "groups": {
+            "diabetes": {
+              "n": 1675,
+              "weighted_rate": 0.1383386269677819
+            },
+            "no_diabetes": {
+              "n": 60892,
+              "weighted_rate": 0.10209906210045462
+            }
+          }
+        },
+        {
+          "cell": [
+            "18\u201344",
+            "below 25k"
+          ],
+          "population_weight": 11769295.803565618,
+          "groups": {
+            "diabetes": {
+              "n": 736,
+              "weighted_rate": 0.31161618385337925
+            },
+            "no_diabetes": {
+              "n": 10665,
+              "weighted_rate": 0.2777883690961071
+            }
+          }
+        },
+        {
+          "cell": [
+            "45\u201364",
+            "25k\u2013<50k"
+          ],
+          "population_weight": 10968512.5388074,
+          "groups": {
+            "diabetes": {
+              "n": 3933,
+              "weighted_rate": 0.1971625999975576
+            },
+            "no_diabetes": {
+              "n": 15134,
+              "weighted_rate": 0.1844644644440019
+            }
+          }
+        },
+        {
+          "cell": [
+            "45\u201364",
+            "50k+"
+          ],
+          "population_weight": 38799754.80075213,
+          "groups": {
+            "diabetes": {
+              "n": 8406,
+              "weighted_rate": 0.07550989598804154
+            },
+            "no_diabetes": {
+              "n": 63309,
+              "weighted_rate": 0.04866907064814891
+            }
+          }
+        },
+        {
+          "cell": [
+            "45\u201364",
+            "below 25k"
+          ],
+          "population_weight": 8038091.678152796,
+          "groups": {
+            "diabetes": {
+              "n": 3889,
+              "weighted_rate": 0.2620884537446738
+            },
+            "no_diabetes": {
+              "n": 9965,
+              "weighted_rate": 0.2679027548015402
+            }
+          }
+        },
+        {
+          "cell": [
+            "65+",
+            "25k\u2013<50k"
+          ],
+          "population_weight": 12655771.651549231,
+          "groups": {
+            "diabetes": {
+              "n": 8807,
+              "weighted_rate": 0.04348037265700126
+            },
+            "no_diabetes": {
+              "n": 27061,
+              "weighted_rate": 0.0416010502088755
+            }
+          }
+        },
+        {
+          "cell": [
+            "65+",
+            "50k+"
+          ],
+          "population_weight": 20762491.918302912,
+          "groups": {
+            "diabetes": {
+              "n": 11374,
+              "weighted_rate": 0.019361133080223854
+            },
+            "no_diabetes": {
+              "n": 51114,
+              "weighted_rate": 0.009386218626116914
+            }
+          }
+        },
+        {
+          "cell": [
+            "65+",
+            "below 25k"
+          ],
+          "population_weight": 6713905.769678987,
+          "groups": {
+            "diabetes": {
+              "n": 5038,
+              "weighted_rate": 0.10691192396481052
+            },
+            "no_diabetes": {
+              "n": 12241,
+              "weighted_rate": 0.0866112395214501
+            }
+          }
+        }
+      ],
+      "smallest_group_n": 736
+    },
+    "age_income_insurance": {
+      "standardized_rates": [
+        0.14751197961123455,
+        0.11284330277780273
+      ],
+      "cells": [
+        {
+          "cell": [
+            "18\u201344",
+            "25k\u2013<50k",
+            1.0
+          ],
+          "population_weight": 16274628.916543761,
+          "groups": {
+            "diabetes": {
+              "n": 823,
+              "weighted_rate": 0.22824223678498187
+            },
+            "no_diabetes": {
+              "n": 17498,
+              "weighted_rate": 0.1816616475476361
+            }
+          }
+        },
+        {
+          "cell": [
+            "18\u201344",
+            "25k\u2013<50k",
+            2.0
+          ],
+          "population_weight": 3800907.1027648756,
+          "groups": {
+            "diabetes": {
+              "n": 127,
+              "weighted_rate": 0.6257751392117749
+            },
+            "no_diabetes": {
+              "n": 3580,
+              "weighted_rate": 0.45461871147810456
+            }
+          }
+        },
+        {
+          "cell": [
+            "18\u201344",
+            "50k+",
+            1.0
+          ],
+          "population_weight": 47234343.39231183,
+          "groups": {
+            "diabetes": {
+              "n": 1614,
+              "weighted_rate": 0.12409866433905622
+            },
+            "no_diabetes": {
+              "n": 57711,
+              "weighted_rate": 0.08617973619561943
+            }
+          }
+        },
+        {
+          "cell": [
+            "18\u201344",
+            "50k+",
+            2.0
+          ],
+          "population_weight": 3272014.0457295207,
+          "groups": {
+            "diabetes": {
+              "n": 61,
+              "weighted_rate": 0.30434737599214307
+            },
+            "no_diabetes": {
+              "n": 3181,
+              "weighted_rate": 0.33344625007651474
+            }
+          }
+        },
+        {
+          "cell": [
+            "18\u201344",
+            "below 25k",
+            1.0
+          ],
+          "population_weight": 8522223.613896642,
+          "groups": {
+            "diabetes": {
+              "n": 617,
+              "weighted_rate": 0.22021293505118023
+            },
+            "no_diabetes": {
+              "n": 8112,
+              "weighted_rate": 0.20126246064465236
+            }
+          }
+        },
+        {
+          "cell": [
+            "18\u201344",
+            "below 25k",
+            2.0
+          ],
+          "population_weight": 3247072.1896689753,
+          "groups": {
+            "diabetes": {
+              "n": 119,
+              "weighted_rate": 0.7429602745472892
+            },
+            "no_diabetes": {
+              "n": 2553,
+              "weighted_rate": 0.4724952223673898
+            }
+          }
+        },
+        {
+          "cell": [
+            "45\u201364",
+            "25k\u2013<50k",
+            1.0
+          ],
+          "population_weight": 9462811.433020756,
+          "groups": {
+            "diabetes": {
+              "n": 3634,
+              "weighted_rate": 0.1565751135885618
+            },
+            "no_diabetes": {
+              "n": 13174,
+              "weighted_rate": 0.13936163495893691
+            }
+          }
+        },
+        {
+          "cell": [
+            "45\u201364",
+            "25k\u2013<50k",
+            2.0
+          ],
+          "population_weight": 1505701.1057866435,
+          "groups": {
+            "diabetes": {
+              "n": 299,
+              "weighted_rate": 0.5869929814753577
+            },
+            "no_diabetes": {
+              "n": 1960,
+              "weighted_rate": 0.440739193246062
+            }
+          }
+        },
+        {
+          "cell": [
+            "45\u201364",
+            "50k+",
+            1.0
+          ],
+          "population_weight": 37590458.35589424,
+          "groups": {
+            "diabetes": {
+              "n": 8223,
+              "weighted_rate": 0.06573931768299095
+            },
+            "no_diabetes": {
+              "n": 61573,
+              "weighted_rate": 0.04056528405130088
+            }
+          }
+        },
+        {
+          "cell": [
+            "45\u201364",
+            "50k+",
+            2.0
+          ],
+          "population_weight": 1209296.4448578935,
+          "groups": {
+            "diabetes": {
+              "n": 183,
+              "weighted_rate": 0.41757336508464704
+            },
+            "no_diabetes": {
+              "n": 1736,
+              "weighted_rate": 0.2964660197396401
+            }
+          }
+        },
+        {
+          "cell": [
+            "45\u201364",
+            "below 25k",
+            1.0
+          ],
+          "population_weight": 6701128.208362836,
+          "groups": {
+            "diabetes": {
+              "n": 3590,
+              "weighted_rate": 0.2170271146258031
+            },
+            "no_diabetes": {
+              "n": 8551,
+              "weighted_rate": 0.20414962084824703
+            }
+          }
+        },
+        {
+          "cell": [
+            "45\u201364",
+            "below 25k",
+            2.0
+          ],
+          "population_weight": 1336963.469789959,
+          "groups": {
+            "diabetes": {
+              "n": 299,
+              "weighted_rate": 0.6540914138498226
+            },
+            "no_diabetes": {
+              "n": 1414,
+              "weighted_rate": 0.5371883192806011
+            }
+          }
+        },
+        {
+          "cell": [
+            "65+",
+            "25k\u2013<50k",
+            1.0
+          ],
+          "population_weight": 12560945.72061609,
+          "groups": {
+            "diabetes": {
+              "n": 8763,
+              "weighted_rate": 0.041776563109515386
+            },
+            "no_diabetes": {
+              "n": 26892,
+              "weighted_rate": 0.04051467555678879
+            }
+          }
+        },
+        {
+          "cell": [
+            "65+",
+            "25k\u2013<50k",
+            2.0
+          ],
+          "population_weight": 94825.9309331413,
+          "groups": {
+            "diabetes": {
+              "n": 44,
+              "weighted_rate": 0.34598662857784657
+            },
+            "no_diabetes": {
+              "n": 169,
+              "weighted_rate": 0.17320056538242878
+            }
+          }
+        },
+        {
+          "cell": [
+            "65+",
+            "50k+",
+            1.0
+          ],
+          "population_weight": 20705003.103738368,
+          "groups": {
+            "diabetes": {
+              "n": 11351,
+              "weighted_rate": 0.019325545994220275
+            },
+            "no_diabetes": {
+              "n": 50989,
+              "weighted_rate": 0.008601615126586417
+            }
+          }
+        },
+        {
+          "cell": [
+            "65+",
+            "50k+",
+            2.0
+          ],
+          "population_weight": 57488.814564547174,
+          "groups": {
+            "diabetes": {
+              "n": 23,
+              "weighted_rate": 0.04226093824757771
+            },
+            "no_diabetes": {
+              "n": 125,
+              "weighted_rate": 0.26336168843438146
+            }
+          }
+        },
+        {
+          "cell": [
+            "65+",
+            "below 25k",
+            1.0
+          ],
+          "population_weight": 6565359.804113515,
+          "groups": {
+            "diabetes": {
+              "n": 4963,
+              "weighted_rate": 0.1026866958684452
+            },
+            "no_diabetes": {
+              "n": 12047,
+              "weighted_rate": 0.08109753436765647
+            }
+          }
+        },
+        {
+          "cell": [
+            "65+",
+            "below 25k",
+            2.0
+          ],
+          "population_weight": 148545.96556547156,
+          "groups": {
+            "diabetes": {
+              "n": 75,
+              "weighted_rate": 0.3391710526333725
+            },
+            "no_diabetes": {
+              "n": 194,
+              "weighted_rate": 0.3092972360521586
+            }
+          }
+        }
+      ],
+      "smallest_group_n": 23
+    }
+  }
+}

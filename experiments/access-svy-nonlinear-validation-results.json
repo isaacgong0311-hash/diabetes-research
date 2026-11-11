@@ -1,0 +1,37 @@
+{
+  "age_only": {
+    "svy_estimate": 0.049267988419674995,
+    "svy_se": 0.007425303743250304,
+    "prototype_estimate": 0.049267988419676466,
+    "prototype_se": 0.007425303743250583,
+    "se_difference": -2.7929047963226594e-16
+  },
+  "age_income": {
+    "svy_estimate": 0.027032125427244716,
+    "svy_se": 0.007106032656608742,
+    "prototype_estimate": 0.0270321254272453,
+    "prototype_se": 0.007106032656609006,
+    "se_difference": -2.636779683484747e-16
+  },
+  "age_income_insurance": {
+    "svy_estimate": 0.03466867683343075,
+    "svy_se": 0.006896658823864499,
+    "prototype_estimate": 0.03466867683343177,
+    "prototype_se": 0.006896658823864766,
+    "se_difference": -2.671474153004283e-16
+  },
+  "income_minus_age": {
+    "svy_estimate": -0.02223586299243028,
+    "svy_se": 0.002484319665372657,
+    "prototype_estimate": -0.022235862992431167,
+    "prototype_se": 0.0024843196653727023,
+    "se_difference": -4.5102810375396984e-17
+  },
+  "full_minus_age": {
+    "svy_estimate": -0.014599311586244244,
+    "svy_se": 0.0031859795571808594,
+    "prototype_estimate": -0.014599311586244695,
+    "prototype_se": 0.0031859795571809466,
+    "se_difference": -8.716985466783456e-17
+  }
+}

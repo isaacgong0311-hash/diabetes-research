@@ -1,0 +1,395 @@
+{
+  "known_age_n": 402094,
+  "missing_income_or_insurance_n": 85827,
+  "settings": [
+    "<25k insured",
+    "<25k uninsured",
+    "25\u2013<50k insured",
+    "25\u2013<50k uninsured",
+    "50k+ insured",
+    "50k+ uninsured"
+  ],
+  "scenarios": [
+    {
+      "no_diabetes_setting": 0,
+      "diabetes_setting": 0,
+      "no_diabetes_rate": 0.11120784603136726,
+      "diabetes_rate": 0.1512219836393829,
+      "difference": 0.04001413760801566,
+      "fixed_reference_difference": 0.0363605148973679,
+      "smallest_group_cell_n": 23
+    },
+    {
+      "no_diabetes_setting": 0,
+      "diabetes_setting": 1,
+      "no_diabetes_rate": 0.11273938344904322,
+      "diabetes_rate": 0.14223075312034675,
+      "difference": 0.02949136967130353,
+      "fixed_reference_difference": 0.028085733010879674,
+      "smallest_group_cell_n": 85
+    },
+    {
+      "no_diabetes_setting": 0,
+      "diabetes_setting": 2,
+      "no_diabetes_rate": 0.1113559734497678,
+      "diabetes_rate": 0.1599670409196842,
+      "difference": 0.04861106746991639,
+      "fixed_reference_difference": 0.03825645753000727,
+      "smallest_group_cell_n": 23
+    },
+    {
+      "no_diabetes_setting": 0,
+      "diabetes_setting": 3,
+      "no_diabetes_rate": 0.11270883430532146,
+      "diabetes_rate": 0.15075514266410603,
+      "difference": 0.03804630835878457,
+      "fixed_reference_difference": 0.029152842409625526,
+      "smallest_group_cell_n": 85
+    },
+    {
+      "no_diabetes_setting": 0,
+      "diabetes_setting": 4,
+      "no_diabetes_rate": 0.10976327789805904,
+      "diabetes_rate": 0.17001877003816931,
+      "difference": 0.06025549214011028,
+      "fixed_reference_difference": 0.052242306117560686,
+      "smallest_group_cell_n": 44
+    },
+    {
+      "no_diabetes_setting": 0,
+      "diabetes_setting": 5,
+      "no_diabetes_rate": 0.11123630050947188,
+      "diabetes_rate": 0.15986950393924987,
+      "difference": 0.04863320342977799,
+      "fixed_reference_difference": 0.041903092843639286,
+      "smallest_group_cell_n": 125
+    },
+    {
+      "no_diabetes_setting": 1,
+      "diabetes_setting": 0,
+      "no_diabetes_rate": 0.1105368457017696,
+      "diabetes_rate": 0.16829894711244917,
+      "difference": 0.05776210141067957,
+      "fixed_reference_difference": 0.043880023429551857,
+      "smallest_group_cell_n": 23
+    },
+    {
+      "no_diabetes_setting": 1,
+      "diabetes_setting": 1,
+      "no_diabetes_rate": 0.11130648252315214,
+      "diabetes_rate": 0.1540424915636772,
+      "difference": 0.04273600904052505,
+      "fixed_reference_difference": 0.03560524154306363,
+      "smallest_group_cell_n": 85
+    },
+    {
+      "no_diabetes_setting": 1,
+      "diabetes_setting": 2,
+      "no_diabetes_rate": 0.11079321467132643,
+      "diabetes_rate": 0.17768321183394403,
+      "difference": 0.0668899971626176,
+      "fixed_reference_difference": 0.045775966062191226,
+      "smallest_group_cell_n": 23
+    },
+    {
+      "no_diabetes_setting": 1,
+      "diabetes_setting": 3,
+      "no_diabetes_rate": 0.11156164114033719,
+      "diabetes_rate": 0.16333311465933542,
+      "difference": 0.05177147351899823,
+      "fixed_reference_difference": 0.036672350941809484,
+      "smallest_group_cell_n": 85
+    },
+    {
+      "no_diabetes_setting": 1,
+      "diabetes_setting": 4,
+      "no_diabetes_rate": 0.10914793015168922,
+      "diabetes_rate": 0.18928559371366968,
+      "difference": 0.08013766356198046,
+      "fixed_reference_difference": 0.05976181464974464,
+      "smallest_group_cell_n": 44
+    },
+    {
+      "no_diabetes_setting": 1,
+      "diabetes_setting": 5,
+      "no_diabetes_rate": 0.1099092405343439,
+      "diabetes_rate": 0.17367116034833716,
+      "difference": 0.06376191981399326,
+      "fixed_reference_difference": 0.049422601375823244,
+      "smallest_group_cell_n": 161
+    },
+    {
+      "no_diabetes_setting": 2,
+      "diabetes_setting": 0,
+      "no_diabetes_rate": 0.11346086142412858,
+      "diabetes_rate": 0.15185921963798105,
+      "difference": 0.03839835821385247,
+      "fixed_reference_difference": 0.033775675179118364,
+      "smallest_group_cell_n": 23
+    },
+    {
+      "no_diabetes_setting": 2,
+      "diabetes_setting": 1,
+      "no_diabetes_rate": 0.11497061373948872,
+      "diabetes_rate": 0.14441496682644855,
+      "difference": 0.029444353086959835,
+      "fixed_reference_difference": 0.02550089329263014,
+      "smallest_group_cell_n": 85
+    },
+    {
+      "no_diabetes_setting": 2,
+      "diabetes_setting": 2,
+      "no_diabetes_rate": 0.11170463032423095,
+      "diabetes_rate": 0.1488977603495116,
+      "difference": 0.03719313002528066,
+      "fixed_reference_difference": 0.03567161781175773,
+      "smallest_group_cell_n": 23
+    },
+    {
+      "no_diabetes_setting": 2,
+      "diabetes_setting": 3,
+      "no_diabetes_rate": 0.11316388830624542,
+      "diabetes_rate": 0.14001995270323378,
+      "difference": 0.026856064396988358,
+      "fixed_reference_difference": 0.02656800269137599,
+      "smallest_group_cell_n": 85
+    },
+    {
+      "no_diabetes_setting": 2,
+      "diabetes_setting": 4,
+      "no_diabetes_rate": 0.11058700635024896,
+      "diabetes_rate": 0.16280524333146928,
+      "difference": 0.05221823698122033,
+      "fixed_reference_difference": 0.04965746639931115,
+      "smallest_group_cell_n": 44
+    },
+    {
+      "no_diabetes_setting": 2,
+      "diabetes_setting": 5,
+      "no_diabetes_rate": 0.11207544657169435,
+      "diabetes_rate": 0.15380761636487716,
+      "difference": 0.04173216979318281,
+      "fixed_reference_difference": 0.03931825312538975,
+      "smallest_group_cell_n": 125
+    },
+    {
+      "no_diabetes_setting": 3,
+      "diabetes_setting": 0,
+      "no_diabetes_rate": 0.11282416424954028,
+      "diabetes_rate": 0.16795302848362745,
+      "difference": 0.055128864234087166,
+      "fixed_reference_difference": 0.041204652905189834,
+      "smallest_group_cell_n": 23
+    },
+    {
+      "no_diabetes_setting": 3,
+      "diabetes_setting": 1,
+      "no_diabetes_rate": 0.11370845829171243,
+      "diabetes_rate": 0.15545560030841085,
+      "difference": 0.04174714201669842,
+      "fixed_reference_difference": 0.03292987101870161,
+      "smallest_group_cell_n": 85
+    },
+    {
+      "no_diabetes_setting": 3,
+      "diabetes_setting": 2,
+      "no_diabetes_rate": 0.11106489566887416,
+      "diabetes_rate": 0.16528311950219443,
+      "difference": 0.05421822383332027,
+      "fixed_reference_difference": 0.0431005955378292,
+      "smallest_group_cell_n": 23
+    },
+    {
+      "no_diabetes_setting": 3,
+      "diabetes_setting": 3,
+      "no_diabetes_rate": 0.11182355216559449,
+      "diabetes_rate": 0.1512485195393184,
+      "difference": 0.039424967373723904,
+      "fixed_reference_difference": 0.03399698041744746,
+      "smallest_group_cell_n": 85
+    },
+    {
+      "no_diabetes_setting": 3,
+      "diabetes_setting": 4,
+      "no_diabetes_rate": 0.10996282389717574,
+      "diabetes_rate": 0.18060664263961992,
+      "difference": 0.07064381874244419,
+      "fixed_reference_difference": 0.05708644412538262,
+      "smallest_group_cell_n": 44
+    },
+    {
+      "no_diabetes_setting": 3,
+      "diabetes_setting": 5,
+      "no_diabetes_rate": 0.11075448466362411,
+      "diabetes_rate": 0.16623218729607542,
+      "difference": 0.0554777026324513,
+      "fixed_reference_difference": 0.04674723085146122,
+      "smallest_group_cell_n": 161
+    },
+    {
+      "no_diabetes_setting": 4,
+      "diabetes_setting": 0,
+      "no_diabetes_rate": 0.1144215233687128,
+      "diabetes_rate": 0.1336971905017529,
+      "difference": 0.019275667133040117,
+      "fixed_reference_difference": 0.022110452875477582,
+      "smallest_group_cell_n": 23
+    },
+    {
+      "no_diabetes_setting": 4,
+      "diabetes_setting": 1,
+      "no_diabetes_rate": 0.11589708324345807,
+      "diabetes_rate": 0.12692557389138592,
+      "difference": 0.011028490647927852,
+      "fixed_reference_difference": 0.013835670988989357,
+      "smallest_group_cell_n": 85
+    },
+    {
+      "no_diabetes_setting": 4,
+      "diabetes_setting": 2,
+      "no_diabetes_rate": 0.11314036384654196,
+      "diabetes_rate": 0.1345914850767561,
+      "difference": 0.021451121230214157,
+      "fixed_reference_difference": 0.02400639550811695,
+      "smallest_group_cell_n": 23
+    },
+    {
+      "no_diabetes_setting": 4,
+      "diabetes_setting": 3,
+      "no_diabetes_rate": 0.11447444987151331,
+      "diabetes_rate": 0.1272038621546707,
+      "difference": 0.012729412283157382,
+      "fixed_reference_difference": 0.01490278038773521,
+      "smallest_group_cell_n": 85
+    },
+    {
+      "no_diabetes_setting": 4,
+      "diabetes_setting": 4,
+      "no_diabetes_rate": 0.11177297922050992,
+      "diabetes_rate": 0.14863342695574355,
+      "difference": 0.03686044773523363,
+      "fixed_reference_difference": 0.03799224409567037,
+      "smallest_group_cell_n": 44
+    },
+    {
+      "no_diabetes_setting": 4,
+      "diabetes_setting": 5,
+      "no_diabetes_rate": 0.11324072403951219,
+      "diabetes_rate": 0.1393677921271151,
+      "difference": 0.0261270680876029,
+      "fixed_reference_difference": 0.02765303082174897,
+      "smallest_group_cell_n": 161
+    },
+    {
+      "no_diabetes_setting": 5,
+      "diabetes_setting": 0,
+      "no_diabetes_rate": 0.11381084568698618,
+      "diabetes_rate": 0.1453984050103651,
+      "difference": 0.03158755932337892,
+      "fixed_reference_difference": 0.02910742431972073,
+      "smallest_group_cell_n": 23
+    },
+    {
+      "no_diabetes_setting": 5,
+      "diabetes_setting": 1,
+      "no_diabetes_rate": 0.11471238840815318,
+      "diabetes_rate": 0.13492900905541463,
+      "difference": 0.020216620647261457,
+      "fixed_reference_difference": 0.020832642433232504,
+      "smallest_group_cell_n": 85
+    },
+    {
+      "no_diabetes_setting": 5,
+      "diabetes_setting": 2,
+      "no_diabetes_rate": 0.11259478985425886,
+      "diabetes_rate": 0.14644963728663196,
+      "difference": 0.0338548474323731,
+      "fixed_reference_difference": 0.031003366952360098,
+      "smallest_group_cell_n": 23
+    },
+    {
+      "no_diabetes_setting": 5,
+      "diabetes_setting": 3,
+      "no_diabetes_rate": 0.11341081538605821,
+      "diabetes_rate": 0.1353675503540774,
+      "difference": 0.021956734968019198,
+      "fixed_reference_difference": 0.021899751831978356,
+      "smallest_group_cell_n": 85
+    },
+    {
+      "no_diabetes_setting": 5,
+      "diabetes_setting": 4,
+      "no_diabetes_rate": 0.11113256235179372,
+      "diabetes_rate": 0.1649424460262915,
+      "difference": 0.053809883674497766,
+      "fixed_reference_difference": 0.044989215539913516,
+      "smallest_group_cell_n": 44
+    },
+    {
+      "no_diabetes_setting": 5,
+      "diabetes_setting": 5,
+      "no_diabetes_rate": 0.11191499149340821,
+      "diabetes_rate": 0.15080766488825353,
+      "difference": 0.038892673394845326,
+      "fixed_reference_difference": 0.034650002265992116,
+      "smallest_group_cell_n": 161
+    }
+  ],
+  "minimum": {
+    "no_diabetes_setting": 4,
+    "diabetes_setting": 1,
+    "no_diabetes_rate": 0.11589708324345807,
+    "diabetes_rate": 0.12692557389138592,
+    "difference": 0.011028490647927852,
+    "fixed_reference_difference": 0.013835670988989357,
+    "smallest_group_cell_n": 85
+  },
+  "maximum": {
+    "no_diabetes_setting": 1,
+    "diabetes_setting": 4,
+    "no_diabetes_rate": 0.10914793015168922,
+    "diabetes_rate": 0.18928559371366968,
+    "difference": 0.08013766356198046,
+    "fixed_reference_difference": 0.05976181464974464,
+    "smallest_group_cell_n": 44
+  },
+  "fixed_reference_minimum": {
+    "no_diabetes_setting": 4,
+    "diabetes_setting": 1,
+    "no_diabetes_rate": 0.11589708324345807,
+    "diabetes_rate": 0.12692557389138592,
+    "difference": 0.011028490647927852,
+    "fixed_reference_difference": 0.013835670988989357,
+    "smallest_group_cell_n": 85
+  },
+  "fixed_reference_maximum": {
+    "no_diabetes_setting": 1,
+    "diabetes_setting": 4,
+    "no_diabetes_rate": 0.10914793015168922,
+    "diabetes_rate": 0.18928559371366968,
+    "difference": 0.08013766356198046,
+    "fixed_reference_difference": 0.05976181464974464,
+    "smallest_group_cell_n": 44
+  },
+  "fixed_reference_weights": [
+    0.04726960431512776,
+    0.0180103015999282,
+    0.0902693128124592,
+    0.021082217849022804,
+    0.26199133270790315,
+    0.01814864479769927,
+    0.037168665506233954,
+    0.007415639047266884,
+    0.05248669507077575,
+    0.008351563947621217,
+    0.2085002897142933,
+    0.006707517549165413,
+    0.03641560867058671,
+    0.0008239292153093258,
+    0.06967089352937507,
+    0.0005259641658210077,
+    0.1148429504315381,
+    0.00031886906987287913
+  ],
+  "limitations": "Fixed, homogeneous within-group assignments; not a missing-data model or exhaustive bounds."
+}

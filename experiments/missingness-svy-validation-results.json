@@ -1,0 +1,23 @@
+{
+  "complete": {
+    "svy_estimate": 0.04886587049940073,
+    "svy_se": 0.007450503374362926,
+    "prototype_estimate": 0.048865870499397064,
+    "prototype_se": 0.007450503374362845,
+    "se_difference": 8.066464163292153e-17
+  },
+  "incomplete": {
+    "svy_estimate": 0.0489076215064968,
+    "svy_se": 0.014968884919374191,
+    "prototype_estimate": 0.04890762150649625,
+    "prototype_se": 0.014968884919373999,
+    "se_difference": 1.9255430583342559e-16
+  },
+  "complete_minus_incomplete": {
+    "svy_estimate": -4.175100709607568e-05,
+    "svy_se": 0.01672087048369442,
+    "prototype_estimate": -4.1751007099182984e-05,
+    "prototype_se": 0.016720870483694212,
+    "se_difference": 2.0816681711721685e-16
+  }
+}

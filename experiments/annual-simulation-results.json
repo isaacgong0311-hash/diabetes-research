@@ -1,0 +1,15 @@
+{
+  "seed": 194062,
+  "attempted": 1000,
+  "valid": 1000,
+  "excluded_empty_age_group": 0,
+  "sample_size_each_year": 540,
+  "finite_population_size_each_year": 10000,
+  "truth": 0.0016781831974320705,
+  "mean_estimate": -0.001074874841937191,
+  "bias": -0.0027530580393692614,
+  "empirical_sd": 0.06520013755655495,
+  "mean_estimated_se": 0.061558278767724045,
+  "coverage": 0.941,
+  "coverage_monte_carlo_se": 0.007451107300260817
+}
